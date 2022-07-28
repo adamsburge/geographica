@@ -68,6 +68,30 @@ h2 {
     text-align: right;
 }
 
+#continent-images {
+    float: left;
+}
+
+#americas-img {
+    background: url('../images/americas.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    height: 300px;
+}
+
+#europe-img {
+    background: url('../images/europe.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    height: 300px;
+}
+
+#africa-img {
+    background: url('../images/africa.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    height: 300px;
+}
+
+#australasia-img {
+    background: url('../images/australasia.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    height: 300px;
+}
+
 #game-start-button p {
     font-weight: 700;
     margin-bottom: 10px;
