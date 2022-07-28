@@ -25,6 +25,10 @@ h2 {
     font-weight: 400;
 }
 
+.center {
+    text-align: center;
+}
+
 /* Button Styling */
 .btn {
     color: #131313;
@@ -32,3 +36,6 @@ h2 {
     border: 1px solid #131313;
     padding: 3px;
 }
+
+/* Home Page Styling */
+
