@@ -11,6 +11,7 @@ body {
     font-weight: 300;
     color: #131313;
     background-color: RGB(240, 214, 187);
+    font-size: 1.2em;
 }
 
 /* Headings */
@@ -34,7 +35,7 @@ h2 {
     color: #131313;
     text-decoration: none;
     border: 1px solid #131313;
-    padding: 3px;
+    padding: 4px;
 }
 
 /* Home Page Styling */
@@ -48,7 +49,26 @@ h2 {
     margin: 5px auto;
 }
 
+#quote-author {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.quote-mark {
+    font-size: 3.5em;
+    font-family: serif;
+}
+
+.quote-start {
+    margin-bottom: -30px;
+    text-indent: -35px;
+}
+
+.end-quote {
+    text-align: right;
+}
+
 #game-start-button p {
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 10px;
 }
