@@ -13,6 +13,22 @@ body {
     background-color: RGB(240, 214, 187);
 }
 
+/* Headings */
+
 h1 {
     font-family: 'Cinzel', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+}
+
+/* Button Styling */
+.btn {
+    color: #131313;
+    text-decoration: none;
+    border: 1px solid #131313;
+    padding: 3px;
 }
