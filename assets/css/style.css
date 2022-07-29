@@ -68,6 +68,11 @@ h2 {
     text-align: right;
 }
 
+#continent-images {
+    width: 75vw;
+    margin: 0 auto;
+}
+
 #continent-images div {
     width: 25%;
     float: left;
@@ -96,5 +101,6 @@ h2 {
 
 #game-start-button p {
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 350px;
 }
