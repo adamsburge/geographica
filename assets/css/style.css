@@ -68,8 +68,10 @@ h2 {
     text-align: right;
 }
 
-#continent-images {
+#continent-images div {
+    width: 25%;
     float: left;
+    box-sizing: border-box;
 }
 
 #americas-img {
