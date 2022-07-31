@@ -169,3 +169,13 @@ h2 {
     margin-top: 30px;
     margin-left: 30px;
 }
+
+/* Styling for Game Finished Page */
+#final-score-heading {
+    margin-top: 175px;
+}
+
+#final-score-text {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
