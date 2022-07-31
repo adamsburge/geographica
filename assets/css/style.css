@@ -39,6 +39,8 @@ h2 {
     padding: 5px;
 }
 
+/* make buttons float and have shadow when hover */
+
 .hvr-float-shadow {
     display: inline-block;
     vertical-align: middle;
@@ -87,6 +89,7 @@ h2 {
     margin-top: 150px;
 }
 
+/* Home page: styling for quotation marks */
 #quote {
     width: 50%;
     margin: 5px auto;
@@ -111,16 +114,20 @@ h2 {
     text-align: right;
 }
 
+/* Home page: styling for continent images */
+
 #continent-images {
     width: 75vw;
     margin: 0 auto;
 }
 
 #continent-images div {
-    width: 25%;
+    width: 25%; /* situate the 4 images in 4 coloums */
     float: left;
     box-sizing: border-box;
 }
+
+/* sets the images as backgrounds in the divs with the appropriate IDs */
 
 #americas-img {
     background: url('../images/americas.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
@@ -141,6 +148,8 @@ h2 {
     background: url('../images/australasia.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
     height: 250px;
 }
+
+/* Style the area of the home page below the images which includes the text leading to the start game button */ 
 
 #game-start-button p {
     font-weight: 300;
