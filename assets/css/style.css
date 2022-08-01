@@ -172,6 +172,10 @@ h2 {
 
 /* Styling for Game Page */
 
+#game-question {
+    font-size: 1.2em;
+}
+
 #game-continent-images {
     width: 100vw;
     margin: 0 auto;
@@ -190,8 +194,8 @@ h2 {
 }
 
 .game-space {
-    width: 50vw;
-    margin: 75px auto 0 auto;
+    width: 60vw;
+    margin: 60px auto 0 auto;
 }
 
 .answer-options {
@@ -203,7 +207,7 @@ h2 {
     float: left;
     box-sizing: border-box;
     margin: 15px 0;
-    padding: 20px;
+    padding: 15px;
 }
 
 .col-one{
@@ -220,13 +224,13 @@ h2 {
 
 #score-label {
     position: absolute;
-    top: 30px;
+    top: 40px;
     right: 75px;
 }
 
 #hint {
     position: absolute;
-    top: 45vh;
+    top: 35vh;
     right: 100px;
     text-align: center;
 }
