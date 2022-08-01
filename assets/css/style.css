@@ -224,6 +224,15 @@ h2 {
     margin-right: 10px;
 }
 
+.solution-space {
+    width: 50vw;
+    margin: 60px auto 0 auto;
+}
+
+.solution-space p {
+    margin-bottom: 10px;
+}
+
 #score-label {
     position: absolute;
     top: 40px;
@@ -238,6 +247,17 @@ h2 {
 }
 
 #hint-text {
+    font-size: .95em;
+}
+
+#next {
+    position: absolute;
+    top: 35vh;
+    right: 10vw;
+    text-align: center;
+}
+
+#next-question {
     font-size: .95em;
 }
 
@@ -382,7 +402,23 @@ h2 {
         margin: 120px auto 0 auto;
     }
 
+    .solution-space {
+        width: 60vw;
+        margin: 80px auto 0 auto;
+    }
+
+    .solution-space p {
+        margin-bottom: 40px;
+    }
+
     #hint {
+        top: unset;
+        bottom: 350px;
+        right: 0;
+        left: 0;
+    }
+
+    #next {
         top: unset;
         bottom: 350px;
         right: 0;
