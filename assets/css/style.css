@@ -235,6 +235,101 @@ h2 {
     font-size: .95em;
 }
 
+/* Styling for progess bar on game page */
+
+#game-progress-icons {
+    width: 100vw;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 275px;
+}
+
+#game-progress-icons div {
+    width: 6.25%; /* situate the 4 images in 4 coloums */
+    float: left;
+    box-sizing: border-box;
+}
+
+#americas-border {
+    background: url('../images/border-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#americas-waters {
+    background: url('../images/waters-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#americas-mountains {
+    background: url('../images/mountain-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#americas-religions {
+    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#europe-border {
+    background: url('../images/border-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#europe-waters {
+    background: url('../images/waters-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#europe-mountains {
+    background: url('../images/mountain-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#europe-religions {
+    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#africa-border {
+    background: url('../images/border-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#africa-waters {
+    background: url('../images/waters-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#africa-mountains {
+    background: url('../images/mountain-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#africa-religions {
+    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#australasia-border {
+    background: url('../images/border-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#australasia-waters {
+    background: url('../images/waters-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#australasia-mountains {
+    background: url('../images/mountain-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
+#australasia-religions {
+    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
+    height: 50px;
+}
+
 /* Styling for Game Finished Page */
 #final-score-heading {
     margin-top: 175px;
