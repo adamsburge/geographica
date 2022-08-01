@@ -9,13 +9,43 @@
 </head>
 <body>
     <h1 class="left" id="game-head">Geographica</h1> <!--Game Finished Page Title-->
-    <h2 class="center" id="final-score-heading">Your Final Score</h2>
-    <p class="center" id="final-score-text"> Your final score is <span id="final-score-number">1000</span>! Keep up the good work!</p>
+    <div class="displayed">
+        <h2 id="game-question">Question Space</h2>
+        <div class="answer-options">
+            <div class="answer-container">
+                <p class="answer-letter">A</p>
+                <p class="answer-phrase" data-answer="1">Answer option 1</p>
+            </div>
+            <div class="answer-container">
+                <p class="answer-letter">B</p>
+                <p class="answer-phrase" data-answer="2">Answer option 2</p>
+            </div>
+            <div class="answer-container">
+                <p class="answer-letter">C</p>
+                <p class="answer-phrase" data-answer="3">Answer option 3</p>
+            </div>
+            <div class="answer-container">
+                <p class="answer-letter">D</p>
+                <p class="answer-phrase" data-answer="4">Answer option 4</p>
+            </div>
+        </div>
+    </div>
+    <h2>Score: <span id="score">1600</span></h2>
+    <div id="hint">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h2 id="hint-text">Need a Hint?</h2>
+    </div>
+    <div class="hidden">
+
+    </div>
     <div id="game-continent-images" class="center"> <!--Create div to store sub-divs which will have continent images as backgrounds (set in CSS)-->
         <div id="americas-img"></div>
         <div id="europe-img"></div>
         <div id="africa-img"></div>
         <div id="australasia-img"></div>
     </div>
+
+    <!-- Font Awesome Fonts-->
+    <script src="https://kit.fontawesome.com/19d4df2b9c.js" crossorigin="anonymous"></script>
 </body>
 </html>
