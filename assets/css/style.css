@@ -486,6 +486,91 @@ h2 {
         text-align: center;
     }
 
+    /* Game Page */
+
+    .game-space {
+        width: 90vw;
+        margin: 3vh auto 0 auto;
+    }
+
+    .answer-options {
+        margin-top: 5px;
+    }
+    
+    .answer-container {
+        width: 95%; /* situate the 4 images in 1 coloum */
+        margin: 5px 0;
+        padding: 5px;
+    }
+    
+    .col-one{
+        margin-right: 5px;
+    }
+    
+    .answer {
+        float: left;
+    }
+    
+    .answer-letter {
+        margin-right: 5px;
+    }
+
+    #score-label {
+        position: unset;
+        top: unset;
+        right: unset;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #score::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #hint {
+        position: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+        left: unset;
+        font-size: 16px;
+    }
+
+    #score-hint-box {
+        width: 80vw;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 125px;
+        left: 0;
+        right: 0;
+    }
+    
+    #score-hint-box div {
+        width: 50%; /* situate the 4 images in 4 coloums */
+        float: left;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+
+    #game-progress-icons {
+        bottom: 75px;
+    }
+
+    #game-progress-icons div {
+        background-size: 16px;
+    }
+
+    #game-continent-images {
+        margin-bottom: 10px;
+    }
+
+    #game-continent-images div {
+        background-size: 75px;
+        height: 75px;
+    }
+    
+
     /* Game Finished Page */
 
     #final-score-heading {
