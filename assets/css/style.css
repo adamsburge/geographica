@@ -194,6 +194,25 @@ h2 {
     margin: 75px auto 0 auto;
 }
 
+.answer-options {
+    margin-top: 25px;
+}
+
+.answer-container {
+    width: 48%; /* situate the 4 images in 2 coloums */
+    float: left;
+    box-sizing: border-box;
+    margin: 5px 5px;
+}
+
+.answer {
+    float: left;
+}
+
+.answer-letter {
+    margin-right: 10px;
+}
+
 #score-label {
     position: absolute;
     top: 30px;
