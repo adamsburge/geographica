@@ -515,6 +515,19 @@ h2 {
         margin-right: 5px;
     }
 
+    .solution-space {
+        width: 90vw;
+        margin: 20px auto 0 auto;
+    }
+
+    .solution-space p {
+        margin-bottom:20px;
+    }
+
+    .solution-space h2 {
+        text-align: center;
+    }
+
     #score-label {
         position: unset;
         top: unset;
@@ -529,6 +542,15 @@ h2 {
     }
 
     #hint {
+        position: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+        left: unset;
+        font-size: 16px;
+    }
+
+    #next {
         position: unset;
         top: unset;
         bottom: unset;
