@@ -170,6 +170,21 @@ h2 {
     margin-left: 30px;
 }
 
+/* Styling for Game Page */
+
+#game-continent-images {
+    width: 100vw;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+}
+
+#game-continent-images div {
+    width: 25%; /* situate the 4 images in 4 coloums */
+    float: left;
+    box-sizing: border-box;
+}
+
 /* Styling for Game Finished Page */
 #final-score-heading {
     margin-top: 175px;
