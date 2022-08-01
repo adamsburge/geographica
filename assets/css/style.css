@@ -185,6 +185,32 @@ h2 {
     box-sizing: border-box;
 }
 
+.hidden {
+    display: none;
+}
+
+.game-space {
+    width: 50vw;
+    margin: 75px auto 0 auto;
+}
+
+#score-label {
+    position: absolute;
+    top: 30px;
+    right: 75px;
+}
+
+#hint {
+    position: absolute;
+    top: 45vh;
+    right: 100px;
+    text-align: center;
+}
+
+#hint-text {
+    font-size: .95em;
+}
+
 /* Styling for Game Finished Page */
 #final-score-heading {
     margin-top: 175px;
