@@ -443,3 +443,39 @@ h2 {
 }
 
 }
+
+/* CSS for Smart Phones in Portrait */
+@media (max-width: 767px) {
+    body {
+        font-size: .7em;
+    }
+
+    /* Home Page */
+
+    #home-head {
+        margin-top: 50px;
+    }
+
+    .quote-text {
+        font-size: 1.15em;
+    }
+
+    #continent-images {
+        background: url('../images/all-continents-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+        height: 150px;
+        background-size: 200px;
+        margin-top: -30px;
+    }
+
+    #continent-images div {
+        display: none;
+    }
+
+    #game-start-button p {
+        font-weight: 300;
+        font-size: 1.25em;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        margin-top: 3px;
+    }
+}
