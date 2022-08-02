@@ -8,7 +8,15 @@
 
 // Functions
 
-function startQuiz() {
+function loadQuiz() {
+
+}
+
+function hideSolutionArea() {
+
+}
+
+function hideQuestionArea() {
 
 }
 
