@@ -24,6 +24,6 @@ function incrementScore() {
 
 }
 
-function incrementProgressBar {
-    
+function incrementProgressBar() {
+
 }
