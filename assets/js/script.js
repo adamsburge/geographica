@@ -153,6 +153,57 @@ const quizQuestionData = [
             d: "Ethiopia",
             correct: "d",
         }
+    },
+    {
+        continent: "australasia",
+        initialAnswerPhrase: "Bahrain is the the only island state in the Persian Gulf",
+        funFact: "The island of Bahrain is also the site of the ancient Dilmun civilisation which the ancient Mesopotamians viewed as a sacred, paradisiac place. ",
+        hint: {
+            hintText: "If you can find the Persian Gulf on this map, then you can find the answer!",
+            hintImg: ""
+        },
+        quiz: {
+            question: "Which country in Asia is surrounded on all sides by the Persian Gulf (i.e., is an island in the Persian Gulf? ",
+            a: "Qatar",
+            b: "Kuwait",
+            c: "Bahrain",
+            d: "Oman",
+            correct: "c"
+        }
+    },
+    {
+        continent: "australasia",
+        initialAnswerPhrase: "Lake Baikal is in Russia.",
+        funFact: "Not only is Lake Baikal the world’s deepest lake (up to 1,642 m or 5,387 ft deep), it’s also the world’s largest freshwater lake by water volume (22-23% of the world’s fresh surface water) and the world’s oldest lake (25-30 million years old). Additionally, the way it freezes in the winter is very stunning! ",
+        hint: {
+            hintText: "Look at this map and, if you can remember where the listed countries are on a map, you will find the answer!",
+            hintImg: ""
+        },
+        quiz: {
+            question: "In which country is Lake Baikal, the world’s deepest lake?",
+            a: "Mongolia",
+            b: "Russia",
+            c: "China",
+            d: "Kazakhstan",
+            correct: "b"
+        }
+    },
+    {
+        continent: "australasia",
+        initialAnswerPhrase: "The Southern Alps span New Zealand’s South Island.",
+        funFact: "The Māori name for the range is Kā Tiritiri o te Moana which means 'the Mirage of the Ocean'. This mountain range is also one of the film locations for the Lord of the Rings trilogy.",
+        hint: {
+            hintText: "",
+            hintImg: ""
+        },
+        quiz: {
+            question: "Which mountain range spans New Zealand’s South Island?",
+            a: "Southern Alps",
+            b: "The Snowy Mountains",
+            c: "Blue Mountains",
+            d: "Tararua Range",
+            correct: "a"
+        }
     }
 ]
 
