@@ -51,6 +51,57 @@ const quizQuestionData = [
             d: "Yungay, Peru",
             correct: "b"
         }
+    },
+    {
+        continent: "europe",
+        initialAnswerPhrase: "Slovenia, Austria and Switzerland all share borders with Italy, but Germany does not!",
+        funFact: "",
+        hint: {
+            hintText: "Look at this map and see if you can discern which country doesn’t share a border with Italy",
+            hintImg: ""
+        },
+        quiz: {
+            question: "Which country does not share a border with Italy?",
+            a: "Slovenia",
+            b: "Switzerland",
+            c: "Austria",
+            d: "Germany",
+            correct: "d"
+        }
+    },
+    {
+        continent: "europe",
+        initialAnswerPhrase: "The body of water east of Sardinia is the Tyrrhenian Sea.",
+        funFact: "The Tyrrhenian sea is named after the legendary figure, Tyrrhenus, who, according to Herodotus, led the people of Lydia (modern day southern Türkiye) to the area of Etruria on the west coast of Italy.",
+        hint: {
+            hintText: "If you can remember which island Sardinia is, this map will tell you the answer!",
+            hintImg: ""
+        },
+        quiz: {
+            question: "What is the name of the body of water east of island of Sardinia?",
+            a: "Tyrrhenian Sea",
+            b: "Ionian Sea",
+            c: "Adriatic Sea",
+            d: "Ligurian Sea",
+            correct: "a"
+        }
+    },
+    {
+        continent: "europe",
+        initialAnswerPhrase: "Mulhacén is located in the Sierra Nevada, in the Baetic Mountain Range.",
+        funFact: "The Baetic Mountain range connects to the Rif mountain range in northern Morocco. It is theorised that 5.3 million years ago these two ranges were connected and the Mediterranean was a dry basin. When the Atlantic Ocean broke through these mountains (an event called the Zanclean flood), the Mediterranean basin was filled with water rushing at 3.5 billion cubic feet per second.",
+        hint: {
+            hintText: "Look at this map and see if you can discern where the highest mountain is.",
+            hintImg: ""
+        },
+        quiz: {
+            question: "In which mountain is Mulhacén, the highest mountain on mainland Spain?",
+            a: "Iberian Range",
+            b: "Cantabrian Range",
+            c: "Baetic Range",
+            d: "Pyrennes",
+            correct: "c"
+        }
     }
 ]
 
