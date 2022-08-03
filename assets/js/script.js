@@ -205,12 +205,12 @@ const quizQuestionData = [
             correct: "a"
         }
     }
-]
-
+];
 
 // Global Variables
 
-
+let score = 0;
+let currentQuiz = 0;
 
 // Functions
 
