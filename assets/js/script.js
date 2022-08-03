@@ -102,6 +102,57 @@ const quizQuestionData = [
             d: "Pyrennes",
             correct: "c"
         }
+    },
+    {
+        continent: "africa",
+        initialAnswerPhrase: "Lesotho is situated inside of South Africa",
+        funFact: "Lesotho is one of three countries in the world that are entirely encircled by another country. The other two are San Marino and the Vatican, both in Italy.",
+        hint: {
+            hintText: "Look at this map. If you can remember the name of country inside South Africa, you will know the answer.",
+            hintImg: ""
+        },
+        quiz: {
+            question: "Which country in Africa is situated inside another country?",
+            a: "Lesotho",
+            b: "Senegal",
+            c: "Benin",
+            d: "Rwanda",
+            correct: "a"
+        }
+    },
+    {
+        continent: "africa",
+        initialAnswerPhrase: "The second longest river in Africa is the Congo River.",
+        funFact: "The Congo River, formerly called the Zaire River, is also the second largest river in the world (by water discharge volume; second only to the Amazon River in South America). It is, however, the deepest river in the world with certain areas being up to 219.5 m (720 ft) deep!",
+        hint: {
+            hintText: "Take a look at this Map and compare the rivers you see!",
+            hintImg: ""
+        },
+        quiz: {
+            question: "What is Africa’s second longest river?",
+            a: "The Zambezi River",
+            b: "The Congo River",
+            c: "The Kasai River",
+            d: "The Yellow River",
+            correct: "b"
+        }
+    },
+    {
+        continent: "africa",
+        initialAnswerPhrase: "The Simien mountains are located in Ethiopia",
+        funFact: "The Simien mountains are one of the few places in Africa where snow regularly falls. Additionally, along with the Drakensberg mountains in South Africa, they have a geologically unique formation which makes them a unique appearance.",
+        hint: {
+            hintText: "If you can remember the name of this country on the map, then you will know the answer!",
+            hintImg: ""
+        },
+        quiz: {
+            question: "The Simien mountains are located in which country?",
+            a: "Sudan",
+            b: "Kenya",
+            c: "Uganda",
+            d: "Ethiopia",
+            correct: "d",
+        }
     }
 ]
 
