@@ -276,7 +276,7 @@ h2 {
 }
 
 #game-progress-icons div {
-    width: 6.25%; /* situate the 4 images in 4 coloums */
+    width: 8.33%; /* situate the 4 images in 4 coloums */
     float: left;
     box-sizing: border-box;
 }
@@ -296,11 +296,6 @@ h2 {
     height: 50px;
 }
 
-#americas-religions {
-    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
-    height: 50px;
-}
-
 #europe-border {
     background: url('../images/border-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 50px;
@@ -313,11 +308,6 @@ h2 {
 
 #europe-mountains {
     background: url('../images/mountain-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
-    height: 50px;
-}
-
-#europe-religions {
-    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 50px;
 }
 
@@ -336,11 +326,6 @@ h2 {
     height: 50px;
 }
 
-#africa-religions {
-    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
-    height: 50px;
-}
-
 #australasia-border {
     background: url('../images/border-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 50px;
@@ -353,11 +338,6 @@ h2 {
 
 #australasia-mountains {
     background: url('../images/mountain-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
-    height: 50px;
-}
-
-#australasia-religions {
-    background: url('../images/religion-icon.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 50px;
 }
 
