@@ -214,15 +214,15 @@ let currentQuiz = 0;
 
 // Functions
 
-function loadQuiz() {
+document.addEventListener("DOMContentLoaded", function() {
+    let answerOptions = document.getElementsByTagName('answer-container');
 
-}
+    for (let answerOption of answerOptions) {
+        answerOption.addEventListener('click',)
+    }
+});
 
-function hideSolutionArea() {
-
-}
-
-function hideQuestionArea() {
+function loadQuestion() {
 
 }
 
@@ -230,14 +230,42 @@ function checkAnswer() {
 
 }
 
-function nextQuestion() {
-
-}
-
 function incrementScore() {
 
 }
 
+function loadSolution() {
+
+}
+
+function hideSolutionArea() {
+
+}
+
+function revealSolutionArea() {
+
+}
+
+function hideQuestionArea() {
+
+}
+
+function revealQuestionArea() {
+
+}
+
+function nextQuestion() {
+
+}
+
 function incrementProgressBar() {
+
+}
+
+function highlightCurrentContinent() {
+
+}
+
+function loadHintModal() {
 
 }
