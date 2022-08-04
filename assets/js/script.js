@@ -222,50 +222,96 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+
+/**
+ * Loads the question and hint data of the current question to the game html page
+ */
 function loadQuestion() {
 
 }
 
+/**
+ * Adds event listeners to answer boxes. Then checks whether the selected answer is correct or not
+ */
 function checkAnswer() {
 
 }
 
+/**
+ * Used to increment the score if the user selected answer is correct
+ */
 function incrementScore() {
 
 }
 
+/**
+ * Loads the appropriate content to the solution area depending on
+ * whether the user answer is correct or incorrect
+ */
 function loadSolution() {
 
 }
 
+/**
+ * Adds the class 'hidden' to the solution area of the game html
+ * so that the solution area is not displayed
+ */
 function hideSolutionArea() {
 
 }
 
+/**
+ * Removes the class 'hidden' from the solution area of the game html
+ * so that the solution area is displayed
+ */
 function revealSolutionArea() {
 
 }
 
+/**
+ * Adds the class 'hidden' to the question area of the game html
+ * so that the question area is not displayed
+ */
 function hideQuestionArea() {
 
 }
 
+/**
+ * Removes the class 'hidden' from the question area of the game html
+ * so that the question area is displayed
+ */
 function revealQuestionArea() {
 
 }
 
+/**
+ * Adds event listener to the 'Next Question' button that increments
+ * the current question number and runs the loadQuestion function
+ */
 function nextQuestion() {
 
 }
 
+/**
+ * Targets the subject icons at the bottom of the screen and
+ * changes their colors to green or red depending on whether the 
+ * user answer is correct or incorrect
+ */
 function incrementProgressBar() {
 
 }
 
+/**
+ * Targets the continent icons at the bottom of the screen and
+ * turns the continent of the current question to a different color
+ */
 function highlightCurrentContinent() {
 
 }
 
+/**
+ * Adds event listener to the hint button which loads the hint modal box
+ */
 function loadHintModal() {
 
 }
