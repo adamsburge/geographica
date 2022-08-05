@@ -179,10 +179,6 @@ h2 {
 
 /* Styling for Game Page */
 
-#game-question {
-    font-size: 1.2em;
-}
-
 .hidden {
     display: none;
 }
@@ -192,12 +188,16 @@ h2 {
     margin: 60px auto 0 auto;
 }
 
+#game-question {
+    font-size: 1.2em;
+}
+
 .answer-options {
     margin-top: 25px;
 }
 
 .answer-container {
-    width: 45%; /* situate the 4 images in 2 coloums - 45% is used to make room for the extra margin and padding */
+    width: 45%; /* situate the 4 containers in 2 coloums - 45% is used to make room for the extra margin and padding */
     float: left;
     box-sizing: border-box;
     margin: 15px 0;
@@ -216,6 +216,8 @@ h2 {
     margin-right: 10px;
 }
 
+/* Style for Game Page Solution Space which will be hidden while Question Space is Displayed */
+
 .solution-space {
     width: 50vw;
     margin: 60px auto 0 auto;
@@ -224,6 +226,8 @@ h2 {
 .solution-space p {
     margin-bottom: 10px;
 }
+
+/* Style for Peripherial information to the game such as score, hint, and next question features */
 
 #score-label {
     position: absolute;
