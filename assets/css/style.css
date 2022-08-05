@@ -125,7 +125,7 @@ h2 {
     text-align: right;
 }
 
-/* Home page: styling for continent images */
+/* Home page: styling for continent images - this code was copied from my previous project (Ancient Languages Society) and changed to fit this project's needs */
 
 #continent-images {
     width: 75vw;
