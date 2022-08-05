@@ -435,6 +435,8 @@ h2 {
 
 }
 
+
+
 /* CSS for Smart Phones in Portrait */
 @media (max-width: 767px) {
     body {
@@ -632,17 +634,14 @@ h2 {
     }
 
     #next {
-        position: unset;
-        top: unset;
-        bottom: unset;
-        right: unset;
-        left: unset;
-        font-size: 16px;
+        position: fixed;
+        top: 10px;
+        right: 30px;
     }
     
     #score-hint-box div {
         width: unset; /* situate the 4 images in 4 coloums */
         margin-top: unset;
     }
-    
+
 }
