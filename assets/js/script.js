@@ -216,7 +216,7 @@ let currentQuiz = 0;
 document.addEventListener("DOMContentLoaded", function() {
     loadQuestion();
     checkAnswer();
-
+    nextQuestion();
 });
 
 
@@ -248,11 +248,15 @@ function checkAnswer() {
                 document.getElementById('solution-statement-1').innerHTML = 'Your answer is correct!';
                 document.getElementById('solution-statement-2').innerHTML = quizQuestionData[currentQuiz].initialAnswerPhrase;
                 document.getElementById('fun-fact').innerHTML = quizQuestionData[currentQuiz].funFact;
+                hideQuestionArea();
+                revealSolutionArea();
             } else {
                 document.getElementById('solution-head').innerHTML = 'Sorry!';
                 document.getElementById('solution-statement-1').innerHTML = 'Your answer is incorrect.';
                 document.getElementById('solution-statement-2').innerHTML = quizQuestionData[currentQuiz].initialAnswerPhrase;
                 document.getElementById('fun-fact').innerHTML = quizQuestionData[currentQuiz].funFact;
+                hideQuestionArea();
+                revealSolutionArea();
             }
         })
     }
@@ -273,7 +277,8 @@ function incrementScore() {
  * so that the solution area is not displayed
  */
 function hideSolutionArea() {
-    
+    document.querySelector('.solution-space').classList.add("hidden");
+    document.querySelector('#next').classList.add("hidden");
 }
 
 /**
@@ -281,7 +286,8 @@ function hideSolutionArea() {
  * so that the solution area is displayed
  */
 function revealSolutionArea() {
-
+    document.querySelector('.solution-space').classList.remove("hidden");
+    document.querySelector('#next').classList.remove("hidden");
 }
 
 /**
@@ -289,7 +295,8 @@ function revealSolutionArea() {
  * so that the question area is not displayed
  */
 function hideQuestionArea() {
-
+    document.querySelector('.game-space').classList.add("hidden");
+    document.querySelector('#hint').classList.add("hidden");
 }
 
 /**
@@ -297,7 +304,8 @@ function hideQuestionArea() {
  * so that the question area is displayed
  */
 function revealQuestionArea() {
-
+    document.querySelector('.game-space').classList.remove("hidden");
+    document.querySelector('#hint').classList.remove("hidden");
 }
 
 /**
@@ -305,7 +313,16 @@ function revealQuestionArea() {
  * the current question number and runs the loadQuestion function
  */
 function nextQuestion() {
-
+    document.querySelector('#next').addEventListener('click', function() {
+        if (currentQuiz < quizQuestionData.length - 1) {
+        currentQuiz++;
+        loadQuestion();
+        hideSolutionArea();
+        revealQuestionArea();
+    } else {
+        return window.location.href = '/game-finish.html';
+    }
+    })
 }
 
 /**
