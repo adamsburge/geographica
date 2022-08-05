@@ -223,8 +223,13 @@ document.addEventListener("DOMContentLoaded", function() {
  */
 function loadQuestion() {
     let currentQuestion = quizQuestionData[currentQuiz].quiz.question;
-    let currentAnswers = quizQuestionData[currentQuiz].quiz.answerOptions;
+    let currentOptions = quizQuestionData[currentQuiz].quiz;
+
     document.getElementById('game-question').innerHTML = currentQuestion;
+    document.getElementById('answer-option-1').innerHTML = currentOptions.a;
+    document.getElementById('answer-option-2').innerHTML = currentOptions.b;
+    document.getElementById('answer-option-3').innerHTML = currentOptions.c;
+    document.getElementById('answer-option-4').innerHTML = currentOptions.d;
 }
 
 /**
@@ -236,6 +241,8 @@ function checkAnswer() {
 
 /**
  * Used to increment the score if the user selected answer is correct
+ * This code is taken from the Code Institute Love Maths project and 
+ * adjusted to fit this project
  */
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('score').innerText);
