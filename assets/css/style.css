@@ -48,7 +48,7 @@ h2 {
     padding: 5px;
 }
 
-/* make buttons float and have shadow when hover */
+/* make buttons float and have shadow when hover - this code is copied from Ian Lunn - see README for more details */
 
 .hvr-float-shadow {
     display: inline-block;
