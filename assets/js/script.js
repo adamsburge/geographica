@@ -232,6 +232,7 @@ function loadQuestion() {
     document.getElementById('answer-option-2').innerHTML = currentOptions.b;
     document.getElementById('answer-option-3').innerHTML = currentOptions.c;
     document.getElementById('answer-option-4').innerHTML = currentOptions.d;
+    highlightCurrentContinent();
 }
 
 /**
@@ -250,6 +251,7 @@ function checkAnswer() {
                 document.getElementById('fun-fact').innerHTML = quizQuestionData[currentQuiz].funFact;
                 hideQuestionArea();
                 revealSolutionArea();
+                document.getElementsByClassName('progress-icon')[currentQuiz].classList.add('green-image');
             } else {
                 document.getElementById('solution-head').innerHTML = 'Sorry!';
                 document.getElementById('solution-statement-1').innerHTML = 'Your answer is incorrect.';
@@ -257,6 +259,7 @@ function checkAnswer() {
                 document.getElementById('fun-fact').innerHTML = quizQuestionData[currentQuiz].funFact;
                 hideQuestionArea();
                 revealSolutionArea();
+                document.getElementsByClassName('progress-icon')[currentQuiz].classList.add('red-image');
             }
         })
     }
@@ -327,8 +330,7 @@ function nextQuestion() {
 
 /**
  * Targets the subject icons at the bottom of the screen and
- * changes their colors to green or red depending on whether the 
- * user answer is correct or incorrect
+ * adds a new icon to the progress bar
  */
 function incrementProgressBar() {
 
@@ -336,10 +338,16 @@ function incrementProgressBar() {
 
 /**
  * Targets the continent icons at the bottom of the screen and
- * turns the continent of the current question to a different color
+ * adds a continent icon when the questions reach that category
  */
 function highlightCurrentContinent() {
-
+    if (quizQuestionData[currentQuiz].continent === "europe") {
+        document.querySelector('#europe-img').classList.remove("clear");
+    } else if (quizQuestionData[currentQuiz].continent === "africa") {
+        document.querySelector('#africa-img').classList.remove("clear");
+    } else if (quizQuestionData[currentQuiz].continent === "australasia") {
+        document.querySelector('#australasia-img').classList.remove("clear");
+    }
 }
 
 /**
