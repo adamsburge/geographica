@@ -214,13 +214,7 @@ let currentQuiz = 0;
 
 // Functions
 
-document.addEventListener("DOMContentLoaded", function() {
-    let answerOptions = document.getElementsByTagName('answer-container');
-
-    for (let answerOption of answerOptions) {
-        answerOption.addEventListener('click',)
-    }
-});
+document.addEventListener("DOMContentLoaded", loadQuestion());
 
 
 /**
