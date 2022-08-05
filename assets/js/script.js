@@ -216,6 +216,7 @@ let currentQuiz = 0;
 document.addEventListener("DOMContentLoaded", function() {
     loadQuestion();
     checkAnswer();
+
 });
 
 
@@ -268,19 +269,11 @@ function incrementScore() {
 }
 
 /**
- * Loads the appropriate content to the solution area depending on
- * whether the user answer is correct or incorrect
- */
-function loadSolution() {
-
-}
-
-/**
  * Adds the class 'hidden' to the solution area of the game html
  * so that the solution area is not displayed
  */
 function hideSolutionArea() {
-
+    
 }
 
 /**
