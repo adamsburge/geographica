@@ -209,7 +209,6 @@ const quizQuestionData = [
 
 // Global Variables
 
-let score = 0;
 let currentQuiz = 0;
 
 // Functions
@@ -224,6 +223,7 @@ document.addEventListener("DOMContentLoaded", function() {
  */
 function loadQuestion() {
     let currentQuestion = quizQuestionData[currentQuiz].quiz.question;
+    let currentAnswers = quizQuestionData[currentQuiz].quiz.answerOptions;
     document.getElementById('game-question').innerHTML = currentQuestion;
 }
 
@@ -238,7 +238,8 @@ function checkAnswer() {
  * Used to increment the score if the user selected answer is correct
  */
 function incrementScore() {
-
+    let oldScore = parseInt(document.getElementById('score').innerText);
+    document.getElementById('score').innerText = oldScore + 200;
 }
 
 /**
