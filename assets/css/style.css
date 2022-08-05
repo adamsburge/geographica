@@ -32,12 +32,22 @@ h2 {
     text-decoration: none;
 }
 
+/* Global attributes */
+
 .center {
     text-align: center;
 }
 
 .left {
     text-align: left;
+}
+
+.red-image {
+    filter: invert(16%) sepia(41%) saturate(4897%) hue-rotate(348deg) brightness(80%) contrast(121%);
+}
+
+.green-image {
+    filter: invert(50%) sepia(5%) saturate(2016%) hue-rotate(108deg) brightness(92%) contrast(87%);
 }
 
 /* Button Styling */
