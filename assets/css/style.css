@@ -183,19 +183,6 @@ h2 {
     font-size: 1.2em;
 }
 
-#game-continent-images {
-    width: 100vw;
-    margin: 0 auto;
-    position: absolute;
-    bottom: 20px;
-}
-
-#game-continent-images div {
-    width: 25%; /* situate the 4 images in 4 coloums */
-    float: left;
-    box-sizing: border-box;
-}
-
 .hidden {
     display: none;
 }
@@ -210,7 +197,7 @@ h2 {
 }
 
 .answer-container {
-    width: 45%; /* situate the 4 images in 2 coloums */
+    width: 45%; /* situate the 4 images in 2 coloums - 45% is used to make room for the extra margin and padding */
     float: left;
     box-sizing: border-box;
     margin: 15px 0;
@@ -339,6 +326,21 @@ h2 {
 #australasia-mountains {
     background: url('../images/mountain-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 50px;
+}
+
+/* Styling for Continent Images Progress Bar */
+
+#game-continent-images {
+    width: 100vw;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+}
+
+#game-continent-images div {
+    width: 25%; /* situate the 4 images in 4 coloums */
+    float: left;
+    box-sizing: border-box;
 }
 
 /* Styling for Game Finished Page */
