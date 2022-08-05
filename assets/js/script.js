@@ -14,7 +14,7 @@ const quizQuestionData = [
             b: "Colombia",
             c: "Bolivia",
             d: "Chile",
-            correct: "b"
+            correct: "Colombia"
         }
     },
     {
@@ -31,7 +31,7 @@ const quizQuestionData = [
             b: "Mississippi River",
             c: "Colorado River",
             d: "Yukon River",
-            correct: "a"
+            correct: "Missouri River"
         }
 
     },
@@ -49,7 +49,7 @@ const quizQuestionData = [
             b: "Mendoza, Argentina",
             c: "Alaska, USA",
             d: "Yungay, Peru",
-            correct: "b"
+            correct: "Mendoza, Argentina"
         }
     },
     {
@@ -66,7 +66,7 @@ const quizQuestionData = [
             b: "Switzerland",
             c: "Austria",
             d: "Germany",
-            correct: "d"
+            correct: "Germany"
         }
     },
     {
@@ -83,7 +83,7 @@ const quizQuestionData = [
             b: "Ionian Sea",
             c: "Adriatic Sea",
             d: "Ligurian Sea",
-            correct: "a"
+            correct: "Tyrrhenian Sea"
         }
     },
     {
@@ -100,7 +100,7 @@ const quizQuestionData = [
             b: "Cantabrian Range",
             c: "Baetic Range",
             d: "Pyrennes",
-            correct: "c"
+            correct: "Baetic Range"
         }
     },
     {
@@ -117,7 +117,7 @@ const quizQuestionData = [
             b: "Senegal",
             c: "Benin",
             d: "Rwanda",
-            correct: "a"
+            correct: "Lesotho"
         }
     },
     {
@@ -134,7 +134,7 @@ const quizQuestionData = [
             b: "The Congo River",
             c: "The Kasai River",
             d: "The Yellow River",
-            correct: "b"
+            correct: "The Congo River"
         }
     },
     {
@@ -151,7 +151,7 @@ const quizQuestionData = [
             b: "Kenya",
             c: "Uganda",
             d: "Ethiopia",
-            correct: "d",
+            correct: "Ethiopia",
         }
     },
     {
@@ -168,7 +168,7 @@ const quizQuestionData = [
             b: "Kuwait",
             c: "Bahrain",
             d: "Oman",
-            correct: "c"
+            correct: "Bahrain"
         }
     },
     {
@@ -185,7 +185,7 @@ const quizQuestionData = [
             b: "Russia",
             c: "China",
             d: "Kazakhstan",
-            correct: "b"
+            correct: "Russia"
         }
     },
     {
@@ -202,7 +202,7 @@ const quizQuestionData = [
             b: "The Snowy Mountains",
             c: "Blue Mountains",
             d: "Tararua Range",
-            correct: "a"
+            correct: "Southern Alps"
         }
     }
 ];
@@ -215,6 +215,7 @@ let currentQuiz = 0;
 
 document.addEventListener("DOMContentLoaded", function() {
     loadQuestion();
+    checkAnswer();
 });
 
 
@@ -236,7 +237,17 @@ function loadQuestion() {
  * Adds event listeners to answer boxes. Then checks whether the selected answer is correct or not
  */
 function checkAnswer() {
+    let answers = document.getElementsByClassName('answer-container');
 
+    for (let answer of answers) {
+        answer.addEventListener('click', function() {
+            if (this.children[1].innerHTML === quizQuestionData[currentQuiz].quiz.correct) {
+                alert('success!');
+            } else {
+                alert('no success!');
+            }
+        })
+    }
 }
 
 /**
