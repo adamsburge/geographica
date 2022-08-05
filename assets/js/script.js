@@ -214,14 +214,17 @@ let currentQuiz = 0;
 
 // Functions
 
-document.addEventListener("DOMContentLoaded", loadQuestion());
+document.addEventListener("DOMContentLoaded", function() {
+    loadQuestion();
+});
 
 
 /**
  * Loads the question and hint data of the current question to the game html page
  */
 function loadQuestion() {
-
+    let currentQuestion = quizQuestionData[currentQuiz].quiz.question;
+    document.getElementById('game-question').innerHTML = currentQuestion;
 }
 
 /**

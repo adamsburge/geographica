@@ -43,11 +43,15 @@ h2 {
 }
 
 .red-image {
-    filter: invert(16%) sepia(41%) saturate(4897%) hue-rotate(348deg) brightness(80%) contrast(121%);
+    filter: brightness(0) saturate(100%) invert(16%) sepia(41%) saturate(4897%) hue-rotate(348deg) brightness(80%) contrast(121%);
 }
 
 .green-image {
-    filter: invert(50%) sepia(5%) saturate(2016%) hue-rotate(108deg) brightness(92%) contrast(87%);
+    filter: brightness(0) saturate(100%) invert(69%) sepia(13%) saturate(671%) hue-rotate(73deg) brightness(90%) contrast(84%);
+}
+
+.clear {
+    opacity: 0;
 }
 
 /* Button Styling */
