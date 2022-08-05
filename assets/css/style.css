@@ -435,7 +435,28 @@ h2 {
 
 }
 
+/* CSS for Tablets in Landscape */
+@media (max-width: 1024px) and (orientation: landscape) {
+    #score-label {
+        text-align: center;
+        font-size: 21px;
+        line-height: 25px;
+    }
 
+    #score::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #hint {
+        top: 40px;
+        bottom: unset;
+        right: 200px;
+        left: unset;
+        font-size: 21px;
+        line-height: 25px;
+    }
+}
 
 /* CSS for Smart Phones in Portrait */
 @media (max-width: 767px) {
