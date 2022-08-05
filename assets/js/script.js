@@ -320,6 +320,7 @@ function nextQuestion() {
         if (currentQuiz < quizQuestionData.length - 1) {
         currentQuiz++;
         loadQuestion();
+        incrementProgressBar();
         hideSolutionArea();
         revealQuestionArea();
     } else {
@@ -333,7 +334,7 @@ function nextQuestion() {
  * adds a new icon to the progress bar
  */
 function incrementProgressBar() {
-
+    document.getElementsByClassName('progress-icon')[currentQuiz].classList.remove('clear');
 }
 
 /**
