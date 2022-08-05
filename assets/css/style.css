@@ -141,22 +141,22 @@ h2 {
 /* sets the images as backgrounds in the divs with the appropriate IDs */
 
 #americas-img {
-    background: url('../images/americas.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    background: url('../images/americas.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 250px;
 }
 
 #europe-img {
-    background: url('../images/europe.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    background: url('../images/europe.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 250px;
 }
 
 #africa-img {
-    background: url('../images/africa.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    background: url('../images/africa.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 250px;
 }
 
 #australasia-img {
-    background: url('../images/australasia.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+    background: url('../images/australasia.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 250px;
 }
 
@@ -446,7 +446,7 @@ h2 {
     }
 
     #continent-images {
-        background: url('../images/all-continents-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+        background: url('../images/all-continents-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
         height: 150px;
         background-size: 200px;
         margin-top: -30px;
