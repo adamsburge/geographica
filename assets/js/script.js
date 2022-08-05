@@ -242,9 +242,16 @@ function checkAnswer() {
     for (let answer of answers) {
         answer.addEventListener('click', function() {
             if (this.children[1].innerHTML === quizQuestionData[currentQuiz].quiz.correct) {
-                alert('success!');
+                incrementScore();
+                document.getElementById('solution-head').innerHTML = 'Congratulations!';
+                document.getElementById('solution-statement-1').innerHTML = 'Your answer is correct!';
+                document.getElementById('solution-statement-2').innerHTML = quizQuestionData[currentQuiz].initialAnswerPhrase;
+                document.getElementById('fun-fact').innerHTML = quizQuestionData[currentQuiz].funFact;
             } else {
-                alert('no success!');
+                document.getElementById('solution-head').innerHTML = 'Sorry!';
+                document.getElementById('solution-statement-1').innerHTML = 'Your answer is incorrect.';
+                document.getElementById('solution-statement-2').innerHTML = quizQuestionData[currentQuiz].initialAnswerPhrase;
+                document.getElementById('fun-fact').innerHTML = quizQuestionData[currentQuiz].funFact;
             }
         })
     }
