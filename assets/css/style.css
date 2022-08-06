@@ -293,11 +293,11 @@ h2 {
     z-index: 1;
 }
 
-#hint-modal-container h2, i {
+#hint-modal-container h2 {
     color: white;
 }
 
-#hint-text {
+#hint-content {
     font-size: 21px;
     text-align: center;
     padding-top: 40px;
@@ -326,6 +326,7 @@ h2 {
     right: 40px;
     top: 30px;
     font-size: 40px;
+    color: white;
 }
 
 /* Styling for progess bar on game page */
@@ -685,7 +686,7 @@ h2 {
 
     /* Game Page Hint Modal */
     
-    #hint-text {
+    #hint-content {
         font-size: 14px;
         text-align: center;
         padding-top: 20px;
@@ -806,7 +807,7 @@ h2 {
     
     /* Hint Modal Popup */
 
-    #hint-text {
+    #hint-content {
         font-size: 14px;
         text-align: center;
         padding-top: 10px;
