@@ -683,6 +683,34 @@ h2 {
         font-size: 16px;
     }
 
+    /* Game Page Hint Modal */
+    
+    #hint-text {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 20px;
+        margin-right:  60px;
+        margin-left: 60px;
+    }
+    
+    #map-container {
+        height: 80vh;
+        width: 95vw;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 2.5vw;
+        background: radial-gradient(circle, rgba(240,214,187,1) 60%, rgba(204,161,121,1) 100%);
+        border-radius: 10px;
+    }
+    
+    #hint-close {
+        right: 20px;
+        top: 15px;
+        font-size: 18px;
+    }
+
+    /* Game Page Progress Area */ 
+
     #score-hint-box {
         width: 80vw;
         margin: 0 auto;
@@ -774,6 +802,24 @@ h2 {
         position: fixed;
         top: 10px;
         right: 30px;
+    }
+    
+    /* Hint Modal Popup */
+
+    #hint-text {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 10px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    #map-container {
+        margin-top: 10px;
+    }
+
+    #hint-close {
+        top: 10px;
     }
     
     #score-hint-box div {
