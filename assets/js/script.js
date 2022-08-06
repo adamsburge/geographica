@@ -234,6 +234,8 @@ function loadQuestion() {
     document.getElementById('answer-option-4').innerHTML = currentOptions.d;
     highlightCurrentContinent();
     resultsButton();
+    showHint();
+    closeHint();
 }
 
 /**
@@ -350,6 +352,24 @@ function nextQuestion() {
             document.getElementById('fun-fact').innerHTML = "Whenever you hear about something in global news, look that country up, read up on its history and spend time looking at maps of it. You'll be surprised at how fascinating it can be!";
         }
     }
+    })
+}
+
+/**
+ * Adds event listener to the 'hint' button to display hint text
+ */
+ function showHint() {
+    document.querySelector('#hint').addEventListener('click', function() {
+        document.querySelector('#hint-modal-container').classList.remove('hidden');
+    })
+}
+
+/**
+ * Adds event listener to the 'hint close' button to hide hint text
+ */
+ function closeHint() {
+    document.querySelector('#hint-close').addEventListener('click', function() {
+        document.querySelector('#hint-modal-container').classList.add('hidden');
     })
 }
 
