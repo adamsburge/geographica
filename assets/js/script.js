@@ -349,8 +349,8 @@ function nextQuestion() {
 }
 
 /**
- * Adds event listener to the 'Next Question' button that increments
- * the current question number and runs the loadQuestion function
+ * Changes the text of the next-question button to say 
+ * 'see results' on the last question
  */
  function resultsButton() {
     if (currentQuiz > 10 ) {
