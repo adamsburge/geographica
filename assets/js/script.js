@@ -324,7 +324,27 @@ function nextQuestion() {
         hideSolutionArea();
         revealQuestionArea();
     } else {
-        return window.location.href = '/game-finish.html';
+        let finalScore = document.getElementById('score').innerText / 200;
+
+        if (parseInt(document.getElementById('score').innerText) > 1600) {
+            document.getElementById('solution-head').innerHTML = 'Okay, Sacagawea...';
+            document.getElementById('solution-statement-1').innerHTML = `You answered ${finalScore}/12 questions correctly.`;
+            document.getElementById('solution-statement-2').innerHTML = "It looks like you know your geography! Well done!";
+            document.getElementById('fun-fact').innerHTML = "Sacagawea, the Lemhi Shoshone woman who served as a guide and interpreter on the Lewis and Clark Expedition, gave birth to her son while on the expedition and carried him along for the duration of the adventure. Clark and the other corps on the expedition nicknamed the young boy 'Pompy'.";
+        } else if (parseInt(document.getElementById('score').innerText) > 800) {
+            document.getElementById('solution-head').innerHTML = "Well, you're no Guugu Yimithirr...";
+            document.getElementById('solution-statement-1').innerHTML = `You answered ${finalScore}/12 questions correctly.`;
+            document.getElementById('solution-statement-2').innerHTML = "Time and practice will make you a truly great geographer.";
+            document.getElementById('fun-fact').innerHTML = "The Guugu Yimithirr people are an Australian aboriginal people who speak the Guugu Yimithirr language. This language is unique among languages in that it uses absolute cardinal directions (north, south, etc.) instead of egocentric direction (left, right, in front of, etc.). This has given the people an extremely acute sense of direction since, to do something as simple as ask for the salt, they would have to say 'Pass the salt, it's to the northeast of you'.";
+        } else {
+            document.getElementById('solution-head').innerHTML = "You know, you should probably pick up a map every once in a while...";
+            document.getElementById('solution-statement-1').innerHTML = `You answered ${finalScore}/12 questions correctly.`;
+            document.getElementById('solution-statement-2').innerHTML = "Not too shabby for a cat at a computer.";
+            document.getElementById('fun-fact-head').innerHTML = "Top Tip:";
+            document.getElementById('fun-fact').innerHTML = "Whenever you hear about something in global news, look that country up, read up on its history and spend time looking at maps of it. You'll be surprised at how fascinating it can be!";
+        }
+
+        //return window.location.href = '/game-finish.html';
     }
     })
 }
