@@ -282,6 +282,24 @@ h2 {
     font-size: .95em;
 }
 
+/* Hint Modal Box Styling */
+
+#hint-modal-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+#hint-modal-container h2, i {
+    color: white;
+    font-size: 21px;
+}
+
+
+
 /* Styling for progess bar on game page */
 
 #game-progress-icons {
