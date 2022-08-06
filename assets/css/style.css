@@ -301,6 +301,8 @@ h2 {
     font-size: 21px;
     text-align: center;
     padding-top: 40px;
+    margin-right:  75px;
+    margin-left: 75px;
 }
 
 #map-container {
@@ -491,6 +493,15 @@ h2 {
         right: 0;
         left: 0;
     }
+
+
+    /* Game Page Hint Modal */
+    
+    #hint-close {
+        font-size: 30px;
+    }
+
+    /* Game Page Progress Area */
 
     #game-continent-images {
         bottom: 0;
