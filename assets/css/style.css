@@ -47,7 +47,7 @@ h2 {
 }
 
 .green-image {
-    filter: brightness(0) saturate(100%) invert(69%) sepia(13%) saturate(671%) hue-rotate(73deg) brightness(90%) contrast(84%);
+    filter: brightness(0) saturate(100%) invert(34%) sepia(29%) saturate(961%) hue-rotate(59deg) brightness(93%) contrast(97%);
 }
 
 .clear {
