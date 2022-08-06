@@ -343,8 +343,6 @@ function nextQuestion() {
             document.getElementById('fun-fact-head').innerHTML = "Top Tip:";
             document.getElementById('fun-fact').innerHTML = "Whenever you hear about something in global news, look that country up, read up on its history and spend time looking at maps of it. You'll be surprised at how fascinating it can be!";
         }
-
-        //return window.location.href = '/game-finish.html';
     }
     })
 }
