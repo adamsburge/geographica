@@ -271,6 +271,17 @@ h2 {
     font-size: .95em;
 }
 
+#redo {
+    position: absolute;
+    top: 35vh;
+    right: 10vw;
+    text-align: center;
+}
+
+#try-again {
+    font-size: .95em;
+}
+
 /* Styling for progess bar on game page */
 
 #game-progress-icons {
@@ -430,6 +441,13 @@ h2 {
         left: 0;
     }
 
+    #redo {
+        top: unset;
+        bottom: 350px;
+        right: 0;
+        left: 0;
+    }
+
     #game-continent-images {
         bottom: 0;
     }
@@ -472,6 +490,13 @@ h2 {
     }
 
     #next {
+        top: unset;
+        bottom: 290px;
+        right: 40px;
+        left: unset;
+    }
+
+    #redo {
         top: unset;
         bottom: 290px;
         right: 40px;
@@ -594,6 +619,15 @@ h2 {
         font-size: 16px;
     }
 
+    #redo {
+        position: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+        left: unset;
+        font-size: 16px;
+    }
+
     #score-hint-box {
         width: 80vw;
         margin: 0 auto;
@@ -676,6 +710,12 @@ h2 {
     }
 
     #next {
+        position: fixed;
+        top: 10px;
+        right: 30px;
+    }
+
+    #redo {
         position: fixed;
         top: 10px;
         right: 30px;

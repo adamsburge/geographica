@@ -326,6 +326,11 @@ function nextQuestion() {
         revealQuestionArea();
     } else {
         let finalScore = document.getElementById('score').innerText / 200;
+        document.querySelector('#next').classList.add('hidden');
+        document.querySelector('#redo').classList.remove('hidden');
+        document.querySelector('#redo').addEventListener('click', function() {
+            location.reload();
+        } )
 
         if (parseInt(document.getElementById('score').innerText) > 1600) {
             document.getElementById('solution-head').innerHTML = 'Okay, Sacagawea...';
