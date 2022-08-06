@@ -233,6 +233,7 @@ function loadQuestion() {
     document.getElementById('answer-option-3').innerHTML = currentOptions.c;
     document.getElementById('answer-option-4').innerHTML = currentOptions.d;
     highlightCurrentContinent();
+    resultsButton();
 }
 
 /**
@@ -345,6 +346,16 @@ function nextQuestion() {
         }
     }
     })
+}
+
+/**
+ * Adds event listener to the 'Next Question' button that increments
+ * the current question number and runs the loadQuestion function
+ */
+ function resultsButton() {
+    if (currentQuiz > 10 ) {
+        document.getElementById('next-question').innerHTML = "See Results";
+    } 
 }
 
 /**
