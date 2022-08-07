@@ -407,10 +407,3 @@ function highlightCurrentContinent() {
         document.querySelector('#australasia-img').classList.remove("clear");
     }
 }
-
-/**
- * Adds event listener to the hint button which loads the hint modal box
- */
-function loadHintModal() {
-
-}
