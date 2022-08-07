@@ -267,7 +267,7 @@ function checkAnswer() {
                 revealSolutionArea();
                 document.getElementsByClassName('progress-icon')[currentQuiz].classList.add('red-image');
             }
-        })
+        });
     }
 }
 
@@ -335,7 +335,7 @@ function nextQuestion() {
         document.querySelector('#redo').classList.remove('hidden');
         document.querySelector('#redo').addEventListener('click', function() {
             location.reload();
-        } )
+        } );
 
         if (parseInt(document.getElementById('score').innerText) > 1600) {
             document.getElementById('solution-head').innerHTML = 'Okay, Sacagawea...';
@@ -355,7 +355,7 @@ function nextQuestion() {
             document.getElementById('fun-fact').innerHTML = "Whenever you hear about something in global news, look that country up, read up on its history and spend time looking at maps of it. You'll be surprised at how fascinating it can be!";
         }
     }
-    })
+    });
 }
 
 /**
@@ -364,7 +364,7 @@ function nextQuestion() {
  function showHint() {
     document.querySelector('#hint').addEventListener('click', function() {
         document.querySelector('#hint-modal-container').classList.remove('hidden');
-    })
+    });
 }
 
 /**
@@ -373,7 +373,7 @@ function nextQuestion() {
  function closeHint() {
     document.querySelector('#hint-close').addEventListener('click', function() {
         document.querySelector('#hint-modal-container').classList.add('hidden');
-    })
+    });
 }
 
 /**
