@@ -55,7 +55,7 @@ const quizQuestionData = [
     {
         continent: "europe",
         initialAnswerPhrase: "Slovenia, Austria and Switzerland all share borders with Italy, but Germany does not!",
-        funFact: "",
+        funFact: "The Italian peninsula was not unified into a single state until 1861! Prior to that, the region was comoposed of various city-states, republics and kingdoms.",
         hint: {
             hintText: "See if you can discern which country doesn’t share a border with Italy",
             hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsdffm001815pma2y79oqr.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.59/40.53/5.27/19.2/51"
