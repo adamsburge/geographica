@@ -226,12 +226,15 @@ document.addEventListener("DOMContentLoaded", function() {
 function loadQuestion() {
     let currentQuestion = quizQuestionData[currentQuiz].quiz.question;
     let currentOptions = quizQuestionData[currentQuiz].quiz;
+    let curQuiz = quizQuestionData[currentQuiz];
 
     document.getElementById('game-question').innerHTML = currentQuestion;
     document.getElementById('answer-option-1').innerHTML = currentOptions.a;
     document.getElementById('answer-option-2').innerHTML = currentOptions.b;
     document.getElementById('answer-option-3').innerHTML = currentOptions.c;
     document.getElementById('answer-option-4').innerHTML = currentOptions.d;
+    document.getElementById('hint-content').innerHTML = curQuiz.hint.hintText;
+    document.getElementById('hint-map').src = curQuiz.hint.hintMap;
     highlightCurrentContinent();
     resultsButton();
     showHint();
