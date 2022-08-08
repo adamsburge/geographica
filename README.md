@@ -17,7 +17,7 @@ The site is also mobile responsive as can be seen below:
 ![Am I Responsive Game Page Start Screenshot](assets/images/game-start-am-i-responsive.png)
 
 ### Hint Page
-NEED TO ADD THIS PHOTO
+![Am I Responsive Game Page Solution Loaded Screenshot](assets/images/hint-i-am-responsive.png)
 ### Solution Loaded
 ![Am I Responsive Game Page Solution Loaded Screenshot](assets/images/solution-space-am-i-responsive.png)
 ### Final Score Page
@@ -99,6 +99,10 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 ## Bugs
 
 ### Solved
+- Progress bar overloaded
+    - Initially, the project contained a fourth category of questions (religion). This category was cut due to issues of space on the page with the progress (particularly in mobile) and since this topic seemed in the end to be less related to geography than mountains, borders and rivers.
+- Map Image not loading properly
+    - The map image on the hint modal box initially did not load correctly. I had three separate maps (one emphasising mountains, another rivers, another borders) which were being loaded to the modal box with Javascript. It seems to have been due to a caching issue and was resolved by combining the 3 maps into 1 and elimating the need to reload the map for each question.
 
 ### Unsolved
 
