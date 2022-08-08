@@ -130,45 +130,46 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 
 ### General Inspiration
 The following sites served as general inspiration for the aesthetic of the Geographica webapp.
-- Cara Mia
-- Renaissance
-- Mendeleev.me
+- [Cara Mia](https://www.caramia.photo)
+- [Renaissance](https://therenaissanceperiod.com)
+- [Mendeleev.me](https://mendeleev.me)
 
 ### Media Sources
 The following details the sources for the site's media:
 - Button Icons:
-    - Font Awesome
+    - [Font Awesome](https://fontawesome.com/icons) provided the icons for all the buttons
 - Subject Icons for the progress bar:
-    - Border
-    - Water
-    - Mountain
+    - [Border](https://www.pngwing.com/en/free-png-hhzth)
+    - [Water](https://www.pngwing.com/en/free-png-nqtpr)
+    - [Mountain](https://www.pngwing.com/en/free-png-bzezm)
 - Continent Images
-    - Americas
-    - Europe
-    - Africa
-    - Australasia
-    - All continents on Mobile
+    - [Americas](https://www.pngwing.com/en/free-png-vqsti)
+    - [Europe](https://www.pngwing.com/en/free-png-zxdpj)
+    - [Africa](https://www.pngwing.com/en/free-png-zibjm)
+    - [Australasia](https://www.pngwing.com/en/free-png-bmbtx)
+    - [All continents on Mobile](https://www.pngwing.com/en/free-png-bstrd)
+- Favicon Icon
 
 ### Other Influences on Style
 - Font Pairing
 - Color Selectors
 
 ## Code Snippets
-- Hover Effect code was created by Ian Lunn
-- The CSS Code for adding a line break (to make the score appear in two lines on mobile) came from this article
-- W3 Schools website provided various references for how to formulate bits of code I had forgotten throughout
-- Mdn Webdocs also served as a useful site for referencing methods for articulating code
+- The [hover effect code](https://github.com/IanLunn/Hover) used on this site was created by [Ian Lunn](https://github.com/IanLunn)
+- The CSS Code for adding a line break (to make the score appear in two lines on mobile) came from [this article](https://www.educative.io/answers/how-to-add-a-line-break-using-css)
+- The [W3 Schools website](https://www.w3schools.com) provided various references for how to formulate bits of code I had forgotten throughout
+- [Mdn Webdocs](https://developer.mozilla.org/en-US/) also served as a useful site for referencing methods for articulating code
 
 ## Code Inspiration
 The following sites or videos were referenced to help me conceptualise the Javascript logic needed to make this quiz work
-- fledgling 
-- Coding with Nick
-- Brian Design
+- [fledgling](https://github.com/Isabella-Mitchell/fledgling-bird-game)
+- [Coding with Nick](https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/)
+- [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2895s)
 
 ## Tools Used
-- This CSS Filter Generator by Barrett Sonntag helped create the css filter which changes the colors of the progress bar icons.
+- This [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp) by [Barrett Sonntag](https://codepen.io/sosuke) helped create the css filter which changes the colors of the progress bar icons.
 
 ## Individuals
-- My Mentor, Adegbenga Adeye, provided comments and feedback
+- My Mentor, [Adegbenga Adeye](https://github.com/deye9), provided comments and feedback
 - My wife, Megan, provided played the game several times and provided feedback on functionality and style.
 - My brother-in-law, Matthew, played the game and provided feeback on functionality.

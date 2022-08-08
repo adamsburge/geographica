@@ -43,10 +43,12 @@ h2 {
 }
 
 .red-image {
+    /* The tool used to build this css filter which creates the desired hex color of a png was created by Barrett Sonntag - see README for more details*/
     filter: brightness(0) saturate(100%) invert(16%) sepia(41%) saturate(4897%) hue-rotate(348deg) brightness(80%) contrast(121%);
 }
 
 .green-image {
+    /* The tool used to build this css filter which creates the desired hex color of a png was created by Barrett Sonntag - see README for more details */
     filter: brightness(0) saturate(100%) invert(34%) sepia(29%) saturate(961%) hue-rotate(59deg) brightness(93%) contrast(97%);
 }
 
@@ -652,7 +654,7 @@ h2 {
     }
 
     #score::before {
-        content: "\a";
+        content: "\a"; /* This code came from an article by educative - see README for more details */
         white-space: pre;
     }
 
