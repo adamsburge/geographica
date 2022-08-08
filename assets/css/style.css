@@ -244,13 +244,13 @@ h2 {
 #score-label {
     position: absolute;
     top: 40px;
-    right: 75px;
+    right: 100px;
 }
 
 #hint {
     position: absolute;
     top: 35vh;
-    right: 10vw;
+    right: 100px;
     text-align: center;
 }
 
