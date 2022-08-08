@@ -261,7 +261,7 @@ h2 {
 #next {
     position: absolute;
     top: 35vh;
-    right: 10vw;
+    right: 100px;
     text-align: center;
 }
 
@@ -272,7 +272,7 @@ h2 {
 #redo {
     position: absolute;
     top: 35vh;
-    right: 10vw;
+    right: 100px;
     text-align: center;
 }
 
