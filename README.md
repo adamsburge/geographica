@@ -110,21 +110,21 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 
 ### Question Sources:
 - Americas
-    - Border Question
-    - Water Question
-    - Mountain Question 
+    - [Border Question](https://www.google.com/search?q=south+america+map&sxsrf=ALiCzsZYrSmv123lCktZeA1Pl9AxLKdziw:1659441104769&tbm=isch&source=iu&ictx=1&vet=1&fir=JgXdbmQMNyypSM%252Chq5-fmad_X5iMM%252C_%253BeoohgSc1AwF-PM%252CfUN2GAjwYXRj3M%252C_%253B08qF1mYdDeE84M%252CMmXerQ0RYbCBaM%252C_%253BRddinRW5YjZRxM%252ColifXixJEu8CoM%252C_%253BtzGp8r90DyCvlM%252C32uBaM_sIsKyLM%252C_%253BCcymgPZu7BW0NM%252C442xAldvXehZCM%252C_%253Bpd9cxy52A2LVDM%252C36vZRDLmJcgQwM%252C_%253BlmPeZsdTqc8nmM%252CeJGU4-0bwELAKM%252C_%253Bdi3Gd-ItVpwF6M%252C49aDG2wZKiMn9M%252C_%253Bm-RfgCk3zq8i_M%252Cs0lvTlzL4wdiyM%252C_%253BjklOJRAfvV9sLM%252Cbd7Zdb6njaOGrM%252C_%253B2TQD1rg-QUMinM%252C4jSIPmQ3L24gUM%252C_%253BUH2LyAyF5ZMzoM%252ColifXixJEu8CoM%252C_%253BxbTeUCsVUuJjEM%252C2MoztDOF2usDEM%252C_%253BbWt956FEDHO8uM%252CYqxdPcFz6-UUBM%252C_%253Brus7EGY-AWDzpM%252CshyEMRPmJtACGM%252C_%253BPKQlPRqc1pXUkM%252CPOikVGqA51YUaM%252C_%253Bfp6tRJlhN6R8HM%252Ce9jGzO4EWlMIQM%252C_%253BePpSZSD33fHWmM%252CyZi_gKfJByvX-M%252C_&usg=AI4_-kTKHdY1s3pK-RU66yuVgwaxBqilRA&sa=X&ved=2ahUKEwig1szsi6j5AhVToVwKHY-qDLgQ9QF6BAgEEAE#imgrc=JgXdbmQMNyypSM) and also [this link](https://en.wikipedia.org/wiki/Colombia)
+    - [Water Question](https://en.wikipedia.org/wiki/Missouri_River)
+    - [Mountain Question](https://en.wikipedia.org/wiki/Aconcagua) 
 - Europe
-    - Border Question
-    - Water Question
-    - Mountain Question 
+    - [Border Question Fun Fact](https://en.wikipedia.org/wiki/Unification_of_Italy)
+    - [Water Question](https://en.wikipedia.org/wiki/Tyrrhenian_Sea)
+    - Mountain Question: [Mulhacén](https://en.wikipedia.org/wiki/Mulhac%C3%A9n), [The Baetic Mountains](https://en.wikipedia.org/wiki/Baetic_System), and the [Zanclean Flood](https://www.theguardian.com/science/2009/dec/09/mediterranean-formation-deluge) 
 - Africa
-    - Border Question
-    - Water Question
-    - Mountain Question 
+    - [Border Question](https://en.wikipedia.org/wiki/Enclave_and_exclave)
+    - [Water Question](https://en.wikipedia.org/wiki/Congo_River)
+    - [Mountain Question](https://en.wikipedia.org/wiki/Simien_Mountains) 
 - Australasia
-    - Border Question
-    - Water Question
-    - Mountain Question 
+    - [Border Question](https://en.wikipedia.org/wiki/Bahrain) and [this article on Dilmun](https://en.wikipedia.org/wiki/Dilmun)
+    - [Water Question](https://en.wikipedia.org/wiki/Lake_Baikal)
+    - [Mountain Question](https://en.wikipedia.org/wiki/Southern_Alps) 
 
 ## Design and Aesthetic
 
