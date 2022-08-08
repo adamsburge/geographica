@@ -155,8 +155,8 @@ The following details the sources for the site's media:
 - Favicon Icon
 
 ### Other Influences on Style
-- Font Pairing
-- Color Selectors
+- The Google font pairing was taken from suggestions on Alexandra Mercier's article [Top 50 Google Font Pairings](https://www.pagecloud.com/blog/best-google-fonts-pairings)
+- Media query sizes came from [this document](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488)
 
 ## Code Snippets
 - The [hover effect code](https://github.com/IanLunn/Hover) used on this site was created by [Ian Lunn](https://github.com/IanLunn)
@@ -172,6 +172,8 @@ The following sites or videos were referenced to help me conceptualise the Javas
 
 ## Tools Used
 - This [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp) by [Barrett Sonntag](https://codepen.io/sosuke) helped create the css filter which changes the colors of the progress bar icons.
+- The color scheme used on this site came from using the [Adobe Color tool](https://color.adobe.com/create/color-wheel)
+- The background gradient was made using [this gradient tool](https://cssgradient.io)
 
 ## Individuals
 - My Mentor, [Adegbenga Adeye](https://github.com/deye9), provided comments and feedback
