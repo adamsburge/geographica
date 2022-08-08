@@ -5,8 +5,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "Colombia is the country that borders Panama, Venezuela, Brazil, Peru and Ecuador.",
         funFact: "<a href=\"https://en.wikipedia.org/wiki/Colombia\" target=\"_blank\">Colombia</a> is also the only country in South America to have beaches in both the Pacific Ocean and the caribbean Sea.",
         hint:  {
-            hintText: "If you can remember where Panama is, you'll find the answer!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsdffm001815pma2y79oqr.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.59/40.53/5.27/19.2/51"
+            hintText: "If you can remember where Panama is, you'll find the answer!"
         },
         quiz:  {
             question: "Which country has Panama, Venezuela, Brazil, Peru and Ecuador as its bordering neighbors?",
@@ -22,8 +21,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "The Missouri River is the longest river in North America.",
         funFact: "<a href=\"https://en.wikipedia.org/wiki/Missouri_River\" target=\"_blank\">The Missouri River</a> flows into North America’s second largest river, the Mississippi river. When combined, these two make up the world’s fourth largest river system",
         hint: {
-            hintText: "Compare the rivers in North America!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6jisxaw001614oejdq4etp7.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#3.34/49.08/90.67/21.6/48"
+            hintText: "Compare the rivers in North America!"
         },
         quiz: {
             question: "What is the longest river in North America?",
@@ -40,8 +38,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "The highest mountain in the americas is <a href=\"https://en.wikipedia.org/wiki/Aconcagua\" target=\"_blank\">Aconcagua</a> in Mendoza, Argentina.",
         funFact: "Not only is Aconcagua the highest mountain in the Americas, it is also the highest mountain outside Asia. Its summit is at an elevation of 6,961 meters (22,838 ft)",
         hint: {
-            hintText: "See if you can discern where the highest mountain in the Americas might be.",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsrk7a001716nzw4c2byj9.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.21/32.62/-98.01/21.6/48"
+            hintText: "See if you can discern where the highest mountain in the Americas might be."
         },
         quiz: {
             question: "Where is the highest mountain in the Americas?",
@@ -57,8 +54,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "Slovenia, Austria and Switzerland all share borders with Italy, but Germany does not!",
         funFact: "The Italian peninsula was not <a href=\"https://en.wikipedia.org/wiki/Unification_of_Italy\" target=\"_blank\">unified into a single state</a>  until 1861! Prior to that, the region was comoposed of various city-states, republics and kingdoms.",
         hint: {
-            hintText: "See if you can discern which country doesn’t share a border with Italy",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsdffm001815pma2y79oqr.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.59/40.53/5.27/19.2/51"
+            hintText: "See if you can discern which country doesn’t share a border with Italy"
         },
         quiz: {
             question: "Which country does not share a border with Italy?",
@@ -74,8 +70,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "The body of water east of Sardinia is the Tyrrhenian Sea.",
         funFact: "<a href=\"https://en.wikipedia.org/wiki/Tyrrhenian_Sea\" target=\"_blank\">The Tyrrhenian Sea</a> is named after the legendary figure, Tyrrhenus, who, according to Herodotus, led the people of Lydia (modern day southern Türkiye) to the area of Etruria on the west coast of Italy.",
         hint: {
-            hintText: "If you can remember where the island of Sardinia is, this map will tell you the answer!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6jisxaw001614oejdq4etp7.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#3.34/49.08/90.67/21.6/48"
+            hintText: "If you can remember where the island of Sardinia is, this map will tell you the answer!"
         },
         quiz: {
             question: "What is the name of the body of water east of island of Sardinia?",
@@ -92,7 +87,6 @@ const quizQuestionData = [
         funFact: "<a href=\"https://en.wikipedia.org/wiki/Baetic_System\" target=\"_blank\">The Baetic Mountain range</a>The Baetic Mountain range connects to the Rif mountain range in northern Morocco. It is theorised that 5.3 million years ago these two ranges were connected and the Mediterranean was a dry basin. When the Atlantic Ocean broke through these mountains (an event called <a href=\"https://en.wikipedia.org/wiki/Zanclean_flood\" target=\"_blank\">the Zanclean flood</a>), the Mediterranean basin was filled with water rushing at 3.5 billion cubic feet per second.",
         hint: {
             hintText: "See if you can discern where the highest mountain is.",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsrk7a001716nzw4c2byj9.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.21/32.62/-98.01/21.6/48"
         },
         quiz: {
             question: "In which mountain is Mulhacén, the highest mountain on mainland Spain?",
@@ -108,8 +102,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "Lesotho is situated inside of South Africa",
         funFact: "Lesotho is one of three countries in the world that are <a href=\"https://en.wikipedia.org/wiki/Enclave_and_exclave\" target=\"_blank\">entirely encircled by another country</a>. The other two are San Marino and the Vatican, both in Italy.",
         hint: {
-            hintText: "Look at this map and see if you can find the answer!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsdffm001815pma2y79oqr.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.59/40.53/5.27/19.2/51"
+            hintText: "Look at this map and see if you can find the answer!"
         },
         quiz: {
             question: "Which country in Africa is situated inside another country?",
@@ -125,8 +118,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "The second longest river in Africa is the Congo River.",
         funFact: "<a href=\"https://en.wikipedia.org/wiki/Congo_River\" target=\"_blank\">The Congo River</a>, formerly called the Zaire River, is also the second largest river in the world (by water discharge volume; second only to the Amazon River in South America). It is, however, the deepest river in the world with certain areas being up to 219.5 m (720 ft) deep!",
         hint: {
-            hintText: "Compare the rivers you see in Africa!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6jisxaw001614oejdq4etp7.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#3.34/49.08/90.67/21.6/48"
+            hintText: "Compare the rivers you see in Africa!"
         },
         quiz: {
             question: "What is Africa’s second longest river?",
@@ -142,8 +134,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "The Simien mountains are located in Ethiopia",
         funFact: "<a href=\"https://en.wikipedia.org/wiki/Simien_Mountains\" target=\"_blank\">The Simien mountains</a> are one of the few places in Africa where snow regularly falls. Additionally, along with the Drakensberg mountains in South Africa, they have a geologically unique formation which makes them a unique appearance.",
         hint: {
-            hintText: "Compare the mountainous countries in Africa!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsrk7a001716nzw4c2byj9.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.21/32.62/-98.01/21.6/48"
+            hintText: "Compare the mountainous countries in Africa!"
         },
         quiz: {
             question: "The Simien mountains are located in which country?",
@@ -159,8 +150,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "Bahrain is the the only island state in the Persian Gulf",
         funFact: "<a href=\"https://en.wikipedia.org/wiki/Bahrain\" target=\"_blank\">The island of Bahrain</a> is also the site of <a href=\"https://en.wikipedia.org/wiki/Dilmun\" target=\"_blank\">the ancient Dilmun civilisation</a> which the ancient Mesopotamians viewed as a sacred, paradisiac place. ",
         hint: {
-            hintText: "If you can find the Persian Gulf on this map, then you can find the answer!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsdffm001815pma2y79oqr.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.59/40.53/5.27/19.2/51"
+            hintText: "If you can find the Persian Gulf on this map, then you can find the answer!"
         },
         quiz: {
             question: "Which country in Asia is surrounded on all sides by the Persian Gulf (i.e., is an island in the Persian Gulf? ",
@@ -176,8 +166,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "Lake Baikal is in Russia.",
         funFact: "Not only is <a href=\"https://en.wikipedia.org/wiki/Lake_Baikal\" target=\"_blank\">Lake Baikal</a> the world’s deepest lake (up to 1,642 m or 5,387 ft deep), it’s also the world’s largest freshwater lake by water volume (22-23% of the world’s fresh surface water) and the world’s oldest lake (25-30 million years old). Additionally, <a href=\"https://www.google.com/search?q=lake+baikal+frozen&tbm=isch&ved=2ahUKEwiWi4nuyLf5AhV_g84BHWu9A8oQ2-cCegQIABAA&oq=lake+baikal+frozen&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEAUyBggAEB4QCDIGCAAQHhAIMgYIABAeEAgyBggAEB4QCDoECCMQJzoECAAQQ1D2CVi7HWCqIWgAcAB4AIABZogBiASSAQM3LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=Di3xYpbMHf-Gur4P6_qO0Aw&bih=986&biw=2525\" target=\"_blank\">the way it freezes</a> in the winter is very stunning! ",
         hint: {
-            hintText: "If you can remember where the listed countries are on a map, you will find the answer!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6jisxaw001614oejdq4etp7.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#3.34/49.08/90.67/21.6/48"
+            hintText: "If you can remember where the listed countries are on a map, you will find the answer!"
         },
         quiz: {
             question: "In which country is Lake Baikal, the world’s deepest lake?",
@@ -193,8 +182,7 @@ const quizQuestionData = [
         initialAnswerPhrase: "<a href=\"https://en.wikipedia.org/wiki/Southern_Alps\" target=\"_blank\">The Southern Alps</a> span New Zealand’s South Island.",
         funFact: "The Māori name for the range is Kā Tiritiri o te Moana which means 'the Mirage of the Ocean'. This mountain range is also one of the film locations for the Lord of the Rings trilogy.",
         hint: {
-            hintText: "If you can remember where New Zealand is, you'll find the answer!",
-            hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsrk7a001716nzw4c2byj9.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.21/32.62/-98.01/21.6/48"
+            hintText: "If you can remember where New Zealand is, you'll find the answer!"
         },
         quiz: {
             question: "Which mountain range spans New Zealand’s South Island?",
@@ -234,7 +222,6 @@ function loadQuestion() {
     document.getElementById('answer-option-3').innerHTML = currentOptions.c;
     document.getElementById('answer-option-4').innerHTML = currentOptions.d;
     document.getElementById('hint-content').innerHTML = curQuiz.hint.hintText;
-    document.getElementById('hint-map').src = curQuiz.hint.hintMap;
     highlightCurrentContinent();
     resultsButton();
     showHint();
