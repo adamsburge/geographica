@@ -346,7 +346,7 @@ function nextQuestion() {
             document.getElementById('solution-head').innerHTML = "Well, you're no Guugu Yimithirr...";
             document.getElementById('solution-statement-1').innerHTML = `You answered ${finalScore}/12 questions correctly.`;
             document.getElementById('solution-statement-2').innerHTML = "Time and practice will make you a truly great geographer.";
-            document.getElementById('fun-fact').innerHTML = "The Guugu Yimithirr people are an Australian aboriginal people who speak the Guugu Yimithirr language. This language is unique among languages in that it uses absolute cardinal directions (north, south, etc.) instead of egocentric direction (left, right, in front of, etc.). This has given the people an extremely acute sense of direction since, to do something as simple as ask for the salt, they would have to say 'Pass the salt, it's to the northeast of you'.";
+            document.getElementById('fun-fact').innerHTML = "Guugu Yimithirr, the language spoken by the aboriginal Guugu Yimithirr people, is unique in that it uses cardinal directions (north, south, etc.) instead of egocentric directions (left, right, in front of, etc.). This has given the people a very acute sense of direction since, to do a simple task like asking for the salt, they would have to say 'Pass the salt, it's to the northeast of you'.";
         } else {
             document.getElementById('solution-head').innerHTML = "You know, you should probably pick up a map every once in a while...";
             document.getElementById('solution-statement-1').innerHTML = `You answered ${finalScore}/12 questions correctly.`;
