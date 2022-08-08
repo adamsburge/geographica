@@ -110,7 +110,7 @@ h2 {
 /* Home Page Styling */
 
 #home-head {
-    margin-top: 150px;
+    margin-top: 10vh;
 }
 
 /* Home page: styling for quotation marks */
@@ -181,7 +181,7 @@ h2 {
     font-size: 1.25em;
     letter-spacing: 1px;
     margin-bottom: 30px;
-    margin-top: 325px;
+    margin-top: 35vh;
 }
 
 /* Styling for Game Pages (both game and game-finished) */
