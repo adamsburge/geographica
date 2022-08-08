@@ -94,6 +94,26 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 - Javascript:
     - The Javascript for the site has been checked for errors with the [JSHint Website](https://jshint.com) and no errors were found
 - Accessibility:
+    - I have checked the site for accessibility with Google's Lighthouse tool.
+        - For Mobile: 
+            - The home page score is:
+
+                ![Mobile Home Lighthouse](assets/images/mobile-home.png)
+            
+            - And the game page score is:
+
+                ![Mobile Home Lighthouse](assets/images/mobile-game-lighthouse.png)
+            
+        - For Desktop:
+
+            - The home page score is:
+
+                ![Mobile Home Lighthouse](assets/images/desktop-home-lighthouse.png)
+            
+            - And the game page score is:
+
+                ![Mobile Home Lighthouse](assets/images/desktop-game-lighthouse.png)
+            
 
 
 ## Bugs
@@ -105,6 +125,7 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
     - The map image on the hint modal box initially did not load correctly. I had three separate maps (one emphasising mountains, another rivers, another borders) which were being loaded to the modal box with Javascript. It seems to have been due to a caching issue and was resolved by combining the 3 maps into 1 and elimating the need to reload the map for each question.
 
 ### Unsolved
+- Currently, there are no bugs that I am aware of.
 
 # Deployment
 
