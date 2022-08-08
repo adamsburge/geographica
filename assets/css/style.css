@@ -184,17 +184,15 @@ h2 {
     margin-top: 35vh;
 }
 
-/* Styling for Game Pages (both game and game-finished) */
+/* Styling for Game Page  */
+
+.hidden {
+    display: none;
+}
 
 #game-head {
     margin-top: 30px;
     margin-left: 30px;
-}
-
-/* Styling for Game Page */
-
-.hidden {
-    display: none;
 }
 
 .game-space {
