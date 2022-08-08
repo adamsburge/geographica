@@ -129,11 +129,46 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 ## Design and Aesthetic
 
 ### General Inspiration
+The following sites served as general inspiration for the aesthetic of the Geographica webapp.
+- Cara Mia
+- Renaissance
+- Mendeleev.me
 
 ### Media Sources
+The following details the sources for the site's media:
+- Button Icons:
+    - Font Awesome
+- Subject Icons for the progress bar:
+    - Border
+    - Water
+    - Mountain
+- Continent Images
+    - Americas
+    - Europe
+    - Africa
+    - Australasia
+    - All continents on Mobile
+
+### Other Influences on Style
+- Font Pairing
+- Color Selectors
 
 ## Code Snippets
+- Hover Effect code was created by Ian Lunn
+- The CSS Code for adding a line break (to make the score appear in two lines on mobile) came from this article
+- W3 Schools website provided various references for how to formulate bits of code I had forgotten throughout
+- Mdn Webdocs also served as a useful site for referencing methods for articulating code
+
+## Code Inspiration
+The following sites or videos were referenced to help me conceptualise the Javascript logic needed to make this quiz work
+- fledgling 
+- Coding with Nick
+- Brian Design
 
 ## Tools Used
+- This CSS Filter Generator by Barrett Sonntag helped create the css filter which changes the colors of the progress bar icons.
 
-## Feedback
+## Individuals
+- My Mentor, Adegbenga Adeye, provided comments and feedback
+- My wife, Megan, provided played the game several times and provided feedback on functionality and style.
+- My brother-in-law, Matthew, played the game and provided feeback on functionality.
