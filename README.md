@@ -5,6 +5,8 @@ Visit the [live site here](https://adamsburge.github.io/geographica/).
 
 # Features
 
+## Basic Site Overview
+
 ## Home Page
 
 ## Game Page
@@ -25,15 +27,27 @@ Visit the [live site here](https://adamsburge.github.io/geographica/).
 
 # Testing
 
+## Bugs
+
+### Solved
+
+### Unsolved
+
+## Validator Testing
+
+
+
 # Deployment
 
 # Credits
+
+## Content
 
 ## Design and Aesthetic
 
 ### General Inspiration
 
-### Image Sources
+### Media Sources
 
 ## Code Snippets
 
