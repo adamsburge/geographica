@@ -48,7 +48,9 @@ There are many different features on display on the game page. As the user progr
 At the start of the game, the page loads the first question. The user is provided with 4 multiple-choice answer options. This question view provides the user with a hint button which opens a modal box containing a hint, a score label which adds 200 points for every correct answer, and a progress bar at the bottom of the page.
 
 ### Hint Button
-NEED TO ADD THIS 
+![Hint Modal View](assets/images/hint.png)
+
+The game also features a hint button which displays the hint in a modal box. The hint is made up of a custom Google-maps-like interface (created using [Mapbox](https://www.mapbox.com)) alongside a short guiding phrase to point the user in the right direction to find the answer.
 
 ### Solution Display
 ![Game Solution Display](assets/images/solution.png)
@@ -85,6 +87,14 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 - The webapp looks good on all the major desktop web browsers and all the most popular tablet and mobile devices. I can confirm that the website looks good on all screensizes.
 
 ## Validator Testing
+- HTML:
+    - The HTML for the site has been checked for errors with the [W3 NU HTML Checker](https://validator.w3.org/nu/) and cleared with no errors reported
+- CSS:
+    - The CSS for the site has been checked for errors with the [W3C CSS Validator]() and passed with no errors found.
+- Javascript:
+    - The Javascript for the site has been checked for errors with the [JSHint Website](https://jshint.com) and no errors were found
+- Accessibility:
+
 
 ## Bugs
 
