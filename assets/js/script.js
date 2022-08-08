@@ -3,7 +3,7 @@ const quizQuestionData = [
     {
         continent: "americas",
         initialAnswerPhrase: "Colombia is the country that borders Panama, Venezuela, Brazil, Peru and Ecuador.",
-        funFact: "Colombia is also the only country in South America to have beaches in both the Pacific Ocean and the caribbean Sea.",
+        funFact: "<a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a> is also the only country in South America to have beaches in both the Pacific Ocean and the caribbean Sea.",
         hint:  {
             hintText: "If you can remember where Panama is, you'll find the answer!",
             hintMap: "https://api.mapbox.com/styles/v1/asb216/cl6dsdffm001815pma2y79oqr.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#4.59/40.53/5.27/19.2/51"

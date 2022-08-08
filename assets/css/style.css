@@ -56,6 +56,11 @@ h2 {
     opacity: 0;
 }
 
+a {
+    color: #33691E;
+    font-weight: 400;
+}
+
 /* Button Styling */
 .btn {
     color: #131313;
