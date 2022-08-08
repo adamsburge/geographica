@@ -604,16 +604,16 @@ h2 {
 
     .game-space {
         width: 90vw;
-        margin: 3vh auto 0 auto;
+        margin: 5vh auto 0 auto;
     }
 
     .answer-options {
-        margin-top: 5px;
+        margin-top: 5vh;
     }
     
     .answer-container {
-        width: 95%; /* situate the 4 images in 1 coloum */
-        margin: 5px 0;
+        width: 45%; /* situate the 4 images in 1 coloum */
+        margin: 10px 5px;
         padding: 5px;
     }
     
@@ -623,6 +623,7 @@ h2 {
     
     .answer {
         float: left;
+        font-size: 12px;
     }
     
     .answer-letter {
@@ -714,7 +715,7 @@ h2 {
         width: 80vw;
         margin: 0 auto;
         position: absolute;
-        bottom: 125px;
+        bottom: 33vh;
         left: 0;
         right: 0;
     }

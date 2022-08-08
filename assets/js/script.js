@@ -199,7 +199,7 @@ const quizQuestionData = [
         quiz: {
             question: "Which mountain range spans New Zealand’s South Island?",
             a: "Southern Alps",
-            b: "The Snowy Mountains",
+            b: "Snowy Mountains",
             c: "Blue Mountains",
             d: "Tararua Range",
             correct: "Southern Alps"

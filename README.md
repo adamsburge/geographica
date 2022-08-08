@@ -1,7 +1,21 @@
 # Geographica
-Welcome to Geographcia. Geographica is a quiz webapp designed to teach users about geography. 
+Welcome to Geographcia. Geographica is a quiz webapp designed to quiz and teach users about geography. The quiz covers 4 geographic regions (the Americas, Europe, Africa and Australasia) and asks 3 subject questions per region (one about borders, one about waters and one about mountains). The quiz also features a hint button which allows users to explore the world on a Google-maps-like interface custom built for the game. Throughout the game, the user learns fun facts about various regions around the world and is provided with feedback at the end of the game based on their final score.
 
-Visit the [live site here](https://adamsburge.github.io/geographica/).
+You can visit the [live site here](https://adamsburge.github.io/geographica/).
+
+## Mobile Responsiveness
+
+The site is also mobile responsive as can be seen below:
+
+### Home
+
+### Game Start
+
+### Hint Page
+
+### Solution Loaded
+
+### Final Score Page
 
 # Features
 
