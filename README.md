@@ -126,6 +126,10 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
     - [Water Question](https://en.wikipedia.org/wiki/Lake_Baikal)
     - [Mountain Question](https://en.wikipedia.org/wiki/Southern_Alps) 
 
+- Final Score Fun Facts:
+    - [Sacagawea](https://en.wikipedia.org/wiki/Sacagawea)
+    - [Guugu Yimithirr](https://en.wikipedia.org/wiki/Guugu_Yimithirr_people)
+
 ## Design and Aesthetic
 
 ### General Inspiration
