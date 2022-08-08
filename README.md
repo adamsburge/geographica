@@ -1,5 +1,5 @@
 # Geographica
-Welcome to Geographcia. Geographica is a quiz webapp designed to quiz and teach users about geography. The quiz covers 4 geographic regions (the Americas, Europe, Africa and Australasia) and asks 3 subject questions per region (one about borders, one about waters and one about mountains). The quiz also features a hint button which allows users to explore the world on a Google-maps-like interface custom built for the game. Throughout the game, the user learns fun facts about various regions around the world and is provided with feedback at the end of the game based on their final score.
+Welcome to Geographcia. Geographica is a quiz webapp designed to quiz and teach users about geography. The quiz covers 4 geographic regions (the Americas, Europe, Africa and Australasia) and asks 3 subject questions per region (one about borders, one about waters and one about mountains). The quiz also features a hint button which allows users to explore the world on a Google-maps-like interface custom-built for the game. Throughout the quiz, the user learns fun facts about various regions around the world and is provided with feedback at the end of the quiz based on their final score.
 
 You can visit the [live site here](https://adamsburge.github.io/geographica/).
 
@@ -26,7 +26,7 @@ The site is also mobile responsive as can be seen below:
 
 ## Basic Site Overview
 
-The webapp is split into two html pages. The first page, the home page, serves solely as a landing page and to provide the user with the inspirational quote encouraging them to learn about Geography by playing the game. The second page, the game page, is where the interactive game begins. The user is asked a series of questions about various geographic regions and the webapp provides the user with feedback based on correct or incorrect answers. It also allows the user to open a hint modal box which provides the user with a custom Google-maps-like interface to explore the geography of the world and find the answers to the questions.
+The webapp is split into two HTML pages. The home page serves solely as a landing page and to provide the user with the inspirational quote encouraging them to learn about geography by playing the game. The second page, the game page, is where the interactive game begins. The user is asked a series of questions about various geographic regions and the webapp provides the user with feedback based on correct or incorrect answers. It also allows the user to open a hint modal box which provides the user with a custom Google-maps-like interface to explore the geography of the world and find the answers to the questions.
 
 ## Home Page
 ![Home Page Screenshot](assets/images/home.png)
@@ -38,19 +38,19 @@ The home page presents the user with the title of the website, a quote from Kenn
 ![Hover 1 Screenshot](assets/images/hover-1.png) ![Hover 2 Screenshot](assets/images/hover-2.png) 
 ![Hover 3 Screenshot](assets/images/hover-3.png)
 
-All the buttons throughout the site use a hover effect which places a shadow underneath the button. 
+All the buttons throughout the site use a hover effect, which places a shadow underneath the button. 
 
 ## Game Page
 There are many different features on display on the game page. As the user progresses through the game, different content and buttons appear and disappear, a progress bar loads, and a total score is kept.
 
 ### Game Start
 ![Game Start Page](assets/images/game-start.png)
-At the start of the game, the page loads the first question. The user is provided with 4 multiple-choice answer options. This question view provides the user with a hint button which opens a modal box containing a hint, a score label which adds 200 points for every correct answer, and a progress bar at the bottom of the page.
+The quiz starts when the game page loads. The user is provided with 4 multiple-choice answer options. This question view provides the user with a hint button which opens a modal box containing a hint. A score label keeps track of the points (200 points for every correct answer). There is a progress bar at the bottom of the page.
 
 ### Hint Button
 ![Hint Modal View](assets/images/hint.png)
 
-The game also features a hint button which displays the hint in a modal box. The hint is made up of a custom Google-maps-like interface (created using [Mapbox](https://www.mapbox.com)) alongside a short guiding phrase to point the user in the right direction to find the answer.
+The game also features a hint button which displays the hint in a modal box. The hint is a custom Google-maps-like interface (created using [Mapbox](https://www.mapbox.com)) alongside a short guiding phrase to point the user in the right direction to find the answer.
 
 ### Solution Display
 ![Game Solution Display](assets/images/solution.png)
@@ -59,9 +59,9 @@ When the user clicks on an answer, the solution section is loaded and either con
 
 ### Progress Bar
 ![Progress Bar View 1](assets/images/progress-1.png)
-![Progress Bar View 1](assets/images/progress-2.png)
-![Progress Bar View 1](assets/images/progress-3.png)
-![Progress Bar View 1](assets/images/progress-4.png)
+![Progress Bar View 2](assets/images/progress-2.png)
+![Progress Bar View 3](assets/images/progress-3.png)
+![Progress Bar View 4](assets/images/progress-4.png)
 
 The progress bar is split into two levels. The top level tells the user two things: 1.) the topic of the question they are on (borders, waters, or mountains) and 2.) which questions they have gotten correct or incorrect. The bottom level of the progress bar tells the user which continent the current question pertains to. Both levels are slowly displayed as the user progressed through the game.
 
@@ -70,7 +70,7 @@ The progress bar is split into two levels. The top level tells the user two thin
 ![Final Score Mid Tier](assets/images/mid-tier-final-score.png)
 ![Final Score Low Tier](assets/images/lower-tier-final-score.png)
 
-At the end of the game, the user is presented with their final score along with an answer based their score. User scores above 1600 points receive the high-tier response, scores between 800 and 1600 receive the mid-tier response, and scores below 800 receive the lower-tier response.
+At the end of the game, the user is presented with their final score along with an answer based on their score. User scores above 1600 points receive the high-tier response, scores between 800 and 1600 receive the mid-tier response, and scores below 800 receive the lower-tier response.
 
 ### Changing of Buttons
 ![See Hint Button](assets/images/see-hint.png)
@@ -78,12 +78,12 @@ At the end of the game, the user is presented with their final score along with 
 ![Results Button](assets/images/see-results.png)
 ![Try Again Button](assets/images/try-again.png)
 
-All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again Button) appear in the same place.
+All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again) appear in the same place.
 
 # Testing
 
 - The webapp has been manually tested for desktop on Google Chrome, Microsoft Edge, Firefox, Safari, and Vivaldi. 
-- Additionally,the webapp has been manually tested for mobile responsiveness on an iPhone 7 and an iPhone 8 as well as using both devtools and [Screenfly](https://bluetree.ai/screenfly/) to test the webapp on various Apple and Android mobile phones and tablet devices from the iPhone 4 onward. 
+- Additionally, the webapp has been manually tested for mobile responsiveness on an iPhone 7 and an iPhone 8, and both Google devtools and [Screenfly](https://bluetree.ai/screenfly/) have been used to test the webapp on various Apple and Android mobile phones and tablet devices from the iPhone 4 onward. 
 - The webapp looks good on all the major desktop web browsers and all the most popular tablet and mobile devices. I can confirm that the website looks good on all screensizes.
 
 ## Validator Testing
@@ -121,11 +121,11 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 ### Solved
 - Progress bar overloaded
     - Initially, the project contained a fourth category of questions (religion). This category was cut due to issues of space on the page with the progress (particularly in mobile) and since this topic seemed in the end to be less related to geography than mountains, borders and rivers.
-- Map Image not loading properly
-    - The map image on the hint modal box initially did not load correctly. I had three separate maps (one emphasising mountains, another rivers, another borders) which were being loaded to the modal box with Javascript. It seems to have been due to a caching issue and was resolved by combining the 3 maps into 1 and elimating the need to reload the map for each question.
+- Map image not loading properly
+    - The map image on the hint modal box initially did not load correctly. I had three separate maps (one emphasising mountains, another rivers, another borders) which were being loaded to the modal box with Javascript. This seems to have been due to a caching issue and was resolved by combining the 3 maps into 1 and elimating the need to reload the map for each question.
 
 ### Unsolved
-- Currently, there are no bugs that I am aware of.
+- Currently, there are no unsolved bugs that I am aware of.
 
 # Deployment
 
@@ -206,11 +206,11 @@ The following sites or videos were referenced to help me conceptualise the Javas
 - [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2895s)
 
 ## Tools Used
-- This [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp) by [Barrett Sonntag](https://codepen.io/sosuke) helped create the css filter which changes the colors of the progress bar icons.
+- This [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp) by [Barrett Sonntag](https://codepen.io/sosuke) helped create the CSS filter which changes the colors of the progress bar icons.
 - The color scheme used on this site came from using the [Adobe Color tool](https://color.adobe.com/create/color-wheel)
 - The background gradient was made using [this gradient tool](https://cssgradient.io)
 
 ## Individuals
 - My Mentor, [Adegbenga Adeye](https://github.com/deye9), provided comments and feedback
-- My wife, Megan, provided played the game several times and provided feedback on functionality and style.
-- My brother-in-law, Matthew, played the game and provided feeback on functionality.
+- My wife, Megan, provided played the game several times and provided feedback on functionality and style
+- My brother-in-law, Matthew, played the game and provided feeback on functionality
