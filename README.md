@@ -80,21 +80,51 @@ All the auxilary buttons (Hint Button, Next Question, See Results, and Try Again
 
 # Testing
 
+- The webapp has been manually tested for desktop on Google Chrome, Microsoft Edge, Firefox, Safari, and Vivaldi. 
+- Additionally,the webapp has been manually tested for mobile responsiveness on an iPhone 7 and an iPhone 8 as well as using both devtools and [Screenfly](https://bluetree.ai/screenfly/) to test the webapp on various Apple and Android mobile phones and tablet devices from the iPhone 4 onward. 
+- The webapp looks good on all the major desktop web browsers and all the most popular tablet and mobile devices. I can confirm that the website looks good on all screensizes.
+
+## Validator Testing
+
 ## Bugs
 
 ### Solved
 
 ### Unsolved
 
-## Validator Testing
-
-
-
 # Deployment
+
+- Just like [my previous project](https://github.com/adamsburge/Ancient-Languages-Society), I have deployed the website through GitHub Pages. To do this, I:
+    - navigated to the GitHub repository and selected settings
+    - on the lefthand side, I selected the 'Pages' option from the menu navigation
+    - Under 'Source', I selected the main branch
+    - Then the live website link was provided
+
+    The website can be accessed [here](https://adamsburge.github.io/geographica/).
+
 
 # Credits
 
 ## Content
+- The content of the website was researched and written by myself. Find the sources for each question below:
+
+### Question Sources:
+- Americas
+    - Border Question
+    - Water Question
+    - Mountain Question 
+- Europe
+    - Border Question
+    - Water Question
+    - Mountain Question 
+- Africa
+    - Border Question
+    - Water Question
+    - Mountain Question 
+- Australasia
+    - Border Question
+    - Water Question
+    - Mountain Question 
 
 ## Design and Aesthetic
 
