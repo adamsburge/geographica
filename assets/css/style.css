@@ -53,12 +53,14 @@ h2 {
 }
 
 .clear {
+    /* Used to make the progress icon bars not visible, but stay in place to keep the structure of the progress bar */
     opacity: 0;
 }
 
 a {
     color: #33691E;
     font-weight: 400;
+    cursor: pointer;
 }
 
 /* Button Styling */
@@ -69,7 +71,7 @@ a {
     padding: 5px;
 }
 
-/* make buttons float and have shadow when hover - this code is copied from Ian Lunn - see README for more details */
+/* make buttons float and have shadow when hover - this code is copied from Ian Lunn - see README Credits for more details */
 
 .hvr-float-shadow {
     display: inline-block;
@@ -194,6 +196,7 @@ a {
 /* Styling for Game Page  */
 
 .hidden {
+    /* Used to hide the various components of the quiz like the solution space and the hint modal. This is manipulated in Javascript */
     display: none;
 }
 
@@ -224,6 +227,7 @@ a {
 }
 
 .col-one{
+    /* Used to manipulate the first column of the answer multiple choice answers */
     margin-right: 15px;
 }
 
@@ -232,6 +236,7 @@ a {
 }
 
 .answer-letter {
+    /* Targets the A, B, C, D letters in the multiple choice boxes */
     margin-right: 10px;
 }
 
@@ -255,6 +260,7 @@ a {
 }
 
 #hint {
+    /* Note that the hint, next, and try again buttons are all places in the same spot. They are hidden and revealed using Javascript depending on where the user is at in the game */
     position: absolute;
     top: 35vh;
     right: 100px;
@@ -349,6 +355,7 @@ a {
     box-sizing: border-box;
 }
 
+/* Background images for the progress bar subject icons */
 #americas-border {
     background: url('../images/border-image.png') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html */
     height: 50px;
@@ -409,7 +416,7 @@ a {
     height: 50px;
 }
 
-/* Styling for Continent Images Progress Bar */
+/* Styling for Continent Images Progress Bar. Note: the background images for these are taken from above on the home page */
 
 #game-continent-images {
     width: 100vw;
@@ -434,7 +441,7 @@ a {
     margin-bottom: 150px;
 }
 
-/* CSS for Tablets in Portrait */
+/* CSS for Tablets in Portrait. Note: the dimensions for the media queries were taken from Gokulakrish's media query outline. See README credits for more details */
 @media (max-width: 1024px) {
 
     /* Home Page and Final Score Page */
@@ -443,6 +450,7 @@ a {
     }
 
     #americas-img {
+        /* Make progress bar images smaller */
         background-size: 130px;
     }
     
@@ -518,6 +526,7 @@ a {
     }
 
     #game-progress-icons div {
+        /* Makes the progress bar subject icons smaller */
         background-size: 35px;
     }
 
@@ -537,6 +546,7 @@ a {
     }
 
     #score::before {
+        /* Inserts a line break after the word 'score' and before the score number. This code trick came from an article by Educative. See README credits for more details */
         content: "\a";
         white-space: pre;
     }
@@ -619,7 +629,7 @@ a {
     }
     
     .answer-container {
-        width: 45%; /* situate the 4 images in 1 coloum */
+        width: 45%; /* situate the 4 images in 2 columms */
         margin: 10px 5px;
         padding: 5px;
     }
@@ -706,7 +716,7 @@ a {
         text-align: center;
         margin-top: 15px;
         margin-left: 2.5vw;
-        background: radial-gradient(circle, rgba(240,214,187,1) 60%, rgba(204,161,121,1) 100%);
+        background: radial-gradient(circle, rgba(240,214,187,1) 60%, rgba(204,161,121,1) 100%); /* Makes the background of the map match the gradient background of the website */
         border-radius: 10px;
     }
     
