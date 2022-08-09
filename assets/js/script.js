@@ -1,11 +1,11 @@
 // Array to store the questions for the quiz
 const quizQuestionData = [
     {
-        continent: "americas",
-        initialAnswerPhrase: "Colombia is the country that borders Panama, Venezuela, Brazil, Peru and Ecuador.",
-        funFact: "<a href=\"https://en.wikipedia.org/wiki/Colombia\" target=\"_blank\">Colombia</a> is also the only country in South America to have beaches in both the Pacific Ocean and the caribbean Sea.",
-        hintText: "If you can remember where Panama is, you'll find the answer!",
-        quiz:  {
+        continent: "americas", // declares the continent which is used below to reveal the continent images in the progress bar
+        initialAnswerPhrase: "Colombia is the country that borders Panama, Venezuela, Brazil, Peru and Ecuador.", // Provides the phrase used in the solution area after the user is told whether they answered correctly or incorrectly
+        funFact: "<a href=\"https://en.wikipedia.org/wiki/Colombia\" target=\"_blank\">Colombia</a> is also the only country in South America to have beaches in both the Pacific Ocean and the caribbean Sea.", //provides the html text to fill the Fun Fact area of the solution page
+        hintText: "If you can remember where Panama is, you'll find the answer!", // Provides the hint text for the hint modal popup
+        quiz:  { // details the quiz question, possible answers and the correct answer
             question: "Which country has Panama, Venezuela, Brazil, Peru and Ecuador as its bordering neighbors?",
             a: "Argentina",
             b: "Colombia",
@@ -173,11 +173,11 @@ const quizQuestionData = [
 
 // Global Variables
 
-let currentQuiz = 0;
+let currentQuiz = 0; // Sets the current Quiz number to 0. This number is then incremented below and used as a reference to help cycle through the question data above
 
 // Functions
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() { // This loads the three functions needed to make the game work. All the other functions for niche interactivity are nested inside these functions (detailed below)
     loadQuestion();
     checkAnswer();
     nextQuestion();
@@ -192,12 +192,15 @@ function loadQuestion() {
     let currentOptions = quizQuestionData[currentQuiz].quiz;
     let curQuiz = quizQuestionData[currentQuiz];
 
+    // Fill Current Question Data
     document.getElementById('game-question').innerHTML = currentQuestion;
     document.getElementById('answer-option-1').innerHTML = currentOptions.a;
     document.getElementById('answer-option-2').innerHTML = currentOptions.b;
     document.getElementById('answer-option-3').innerHTML = currentOptions.c;
     document.getElementById('answer-option-4').innerHTML = currentOptions.d;
     document.getElementById('hint-content').innerHTML = curQuiz.hintText;
+    
+    // Loads the various interactive components of the game such as loading the progress bar, adjusting the hint button to be the next quesiton button and opening and closing the hint modal
     highlightCurrentContinent();
     resultsButton();
     showHint();
@@ -210,6 +213,7 @@ function loadQuestion() {
 function checkAnswer() {
     let answers = document.getElementsByClassName('answer-container');
 
+    // Use a for loop paired with an event listener to get the user's selected answer. Then use an if statement to compare the selected answer to the correct answer and display the solution page according to the user's answer
     for (let answer of answers) {
         answer.addEventListener('click', function() {
             if (this.children[1].innerHTML === quizQuestionData[currentQuiz].quiz.correct) {
@@ -282,7 +286,11 @@ function revealQuestionArea() {
 
 /**
  * Adds event listener to the 'Next Question' button that increments
- * the current question number and runs the loadQuestion function
+ * the current question number and runs the loadQuestion function.
+ * If the quiz is on the last question, then change the Next Question
+ * Button to say 'See Result'. Then, upon click, fill the solution space 
+ * with the final score results content and a feedback response based on
+ * the user's final score
  */
 function nextQuestion() {
     document.querySelector('#next').addEventListener('click', function() {
