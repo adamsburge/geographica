@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <a href="index.html" class="home-link"><h1 class="left" id="game-head">Geographica</h1></a> <!--Game Page Title-->
+    <a href="index.html" class="home-link" aria-label="Go to home page"><h1 class="left" id="game-head">Geographica</h1></a> <!--Game Page Title-->
     <div class="game-space">
         <h2 id="game-question">What is Africa’s second longest river?</h2> <!-- Game Question: This is just filler text. The actual game questions are loaded via Javascript -->
         <div class="answer-options"> <!-- Game answer box: All the answer options are stored as sub-divs in this box. Like the game question, this is just filler text and the actual content is loaded with Javascript -->
@@ -64,7 +64,7 @@
         <div id="map-container">
             <iframe id="hint-map" src="https://api.mapbox.com/styles/v1/asb216/cl6dsdffm001815pma2y79oqr.html?title=view&access_token=pk.eyJ1IjoiYXNiMjE2IiwiYSI6ImNsNmRpMWMxczA1cHozZHFvOTZtdjlhOTkifQ.Q9M87flmP65q3vUGLiuvmQ&zoomwheel=true&fresh=true#6.37/-31.838/-65.879/19.2/51"></iframe>
         </div>
-        <i id="hint-close" class="fa-solid fa-times"></i>
+        <i id="hint-close" class="fa-solid fa-times" aria-label="Close Hint Popup"></i>
 
     </div>
     <div id="game-progress-icons" class="center"> <!--Create div to store sub-divs which will have subject icons as backgrounds (set in CSS)-->
