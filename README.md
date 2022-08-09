@@ -188,6 +188,7 @@ The following details the sources for the site's media:
     - [Australasia](https://www.pngwing.com/en/free-png-bmbtx)
     - [All continents on Mobile](https://www.pngwing.com/en/free-png-bstrd)
 - Favicon Icon
+    - [Globe Image](https://www.pngwing.com/en/free-png-boxqw)
 
 ### Other Influences on Style
 - The Google font pairing was taken from suggestions on Alexandra Mercier's article [Top 50 Google Font Pairings](https://www.pagecloud.com/blog/best-google-fonts-pairings)
