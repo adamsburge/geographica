@@ -338,6 +338,7 @@ a {
     top: 30px;
     font-size: 40px;
     color: white;
+    cursor: pointer;
 }
 
 /* Styling for progess bar on game page */
